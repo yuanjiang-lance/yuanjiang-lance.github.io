@@ -113,3 +113,46 @@
   preview={wave-mechanics.gif},
   abbr={Vision}
 }
+
+@article{jiang2022iterative,
+  bibtex_show={true},
+  title={An iterative frequency-domain envelope-tracking filter for dispersive signal decomposition in structural health monitoring},
+  author={Jiang, Yuan and Niu, Gang},
+  journal={Mechanical Systems and Signal Processing},
+  volume={179},
+  pages={109329},
+  year={2022},
+  publisher={Elsevier},
+  abstract={Dispersive signals are omnipresent in structural health monitoring and nondestructive testing. Due to the strong dispersion and multimodal characteristics, such signals often contain multiple components with frequency-varying group delays (GDs) overlapping in time–frequency (TF) domain, bringing great challenges to the existing signal processing methods. This paper presents a novel dispersive signal decomposition method named iterative frequency-domain envelope-tracking filter (IFETF) to accurately estimate the dispersion curves and separate overlapped components. Specifically, an envelope tracking issue is introduced in frequency domain based on dispersive signal model. Then, GDs are refined by recovered frequency envelope, and an iterative processing procedure is designed to ameliorate the TF resolution. To initialize the IFETF, an adaptive ridge detection technique is introduced to automatically estimate the number of components and their GDs with little prior knowledge. In addition, a high-quality TF representation can be constructed according to the results of IFETF, unambiguously revealing TF patterns of a multi-component dispersive signal. The proposed method was demonstrated by numerical analysis and engineering applications on broadband Lamb wave inspection and rail damage detection. Compared with traditional TF analysis techniques, the results show that the IFETF provides higher accuracy and efficiency in signal reconstruction and GD estimation.},
+  doi={10.1016/j.ymssp.2022.109329},
+  abbr={MSSP},
+}
+
+@article{jiang2025multi,
+  bibtex_show={true},
+  title={Multi-fidelity physics-informed convolutional neural network for heat map prediction of battery packs},
+  author={Jiang¹, Yuan and Liu¹, Zheng and Kabirzadeh, Pouya and Wu, Yulun and Li, Yumeng and Miljkovic, Nenad and Wang, Pingfeng},
+  journal={Reliability Engineering \& System Safety},
+  volume={256},
+  pages={110752},
+  year={2025},
+  publisher={Elsevier},
+  abstract={The layout of battery cells in liquid-based battery thermal management systems determines the temperature distribution within a battery pack, which, in turn, affects the safety, reliability, and efficiency of the battery system. Therefore, real-time heat map prediction is of great importance for battery design optimization and control strategy refinement. However, the scarcity of high-fidelity data as well as the imperfections of low-fidelity physics knowledge significantly hinder the accuracy of both data-driven and physic-informed machine learning (PIML) surrogate models. To tackle these challenges, this paper proposes a novel multi-fidelity physics-informed convolutional neural network (MFPI-CNN) that integrates low-fidelity domain-specific knowledge with limited high-fidelity data to provide accurate and trustworthy real-time battery heat map estimations. First, to facilitate the integration of heat transfer knowledge into machine learning models, a complex three-dimensional battery heat transfer problem is simplified to an equivalent two-dimensional representation as low-fidelity physics knowledge. Then, the MFPI-CNN with a physics-informed backbone and a high-fidelity projection head is proposed to generate battery heat maps at various fidelity levels. The backbone’s pre-training employs an unsupervised PIML framework, embedding heat transfer partial differential equations and boundary conditions within the loss function and padding modes. The high-fidelity projection head with a simplified structure is then appended to the fixed backbone and trained by limited labeled data. Both the backbone and projection head are equipped with appropriate modules and linear-weighting loss functions to normalize convergence speed. The efficacy of the model simplification is verified by various battery experiments and simulations. Comparative results and ablation studies on heat map predictions demonstrate that the proposed MFPI-CNN outperforms traditional data-driven, physics-informed, and other multi-fidelity surrogate models.},
+  doi={10.1016/j.ress.2024.110752},
+  abbr={RESS},
+  annotation={¹ indicates co-first authorship},
+}
+
+@article{jiang2024iterative,
+  title={An iterative adaptive Vold--Kalman filter for nonstationary signal decomposition in mechatronic transmission fault diagnosis under variable speed conditions},
+  author={Jiang, Yuan and Chen, Yuejian and Wang, Pingfeng},
+  journal={IEEE Transactions on Industrial Informatics},
+  volume={20},
+  number={8},
+  pages={10510--10519},
+  year={2024},
+  publisher={IEEE},
+  abstract={Vold-Kalman filter (VKF) is a powerful tool for time-frequency (TF) decomposition of nonstationary signals. However, the overdependence on instantaneous frequency (IF) estimation, neglect of nonlinear initial phase, and improper bandwidth selection against noise interference limit its practical performance in mechatronic transmission fault diagnosis under variable speed conditions. This article proposes a novel signal processing method named iterative adaptive Vold–Kalman filter (IAVKF) to tackle the challenges in VKF and realize accurate IF estimation and fault dynamic feature extraction. Specifically, an improved VKF model is developed with the consideration of nonlinear initial phase and discrepancies between true and estimated IFs. Then, the estimated IF is refined by the recovered envelope to ameliorate TF resolution. Finally, an iterative bandwidth adaptation step is developed based on signal orthogonality to reduce noise interference and ensure algorithm convergence. Numerical analysis and two engineering applications in mechatronic transmission fault diagnosis are conducted, showing that IAVKF provides higher accuracy and efficiency in fault feature extraction and IF estimation.},
+  abbr={IEEE TII},
+}
+
