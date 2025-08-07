@@ -131,7 +131,7 @@
 @article{jiang2025multi,
   bibtex_show={true},
   title={Multi-fidelity physics-informed convolutional neural network for heat map prediction of battery packs},
-  author={Jiang¹, Yuan and Liu¹, Zheng and Kabirzadeh, Pouya and Wu, Yulun and Li, Yumeng and Miljkovic, Nenad and Wang, Pingfeng},
+  author={Jiang†, Yuan and Liu†, Zheng and Kabirzadeh, Pouya and Wu, Yulun and Li, Yumeng and Miljkovic, Nenad and Wang, Pingfeng},
   journal={Reliability Engineering \& System Safety},
   volume={256},
   pages={110752},
@@ -140,7 +140,7 @@
   abstract={The layout of battery cells in liquid-based battery thermal management systems determines the temperature distribution within a battery pack, which, in turn, affects the safety, reliability, and efficiency of the battery system. Therefore, real-time heat map prediction is of great importance for battery design optimization and control strategy refinement. However, the scarcity of high-fidelity data as well as the imperfections of low-fidelity physics knowledge significantly hinder the accuracy of both data-driven and physic-informed machine learning (PIML) surrogate models. To tackle these challenges, this paper proposes a novel multi-fidelity physics-informed convolutional neural network (MFPI-CNN) that integrates low-fidelity domain-specific knowledge with limited high-fidelity data to provide accurate and trustworthy real-time battery heat map estimations. First, to facilitate the integration of heat transfer knowledge into machine learning models, a complex three-dimensional battery heat transfer problem is simplified to an equivalent two-dimensional representation as low-fidelity physics knowledge. Then, the MFPI-CNN with a physics-informed backbone and a high-fidelity projection head is proposed to generate battery heat maps at various fidelity levels. The backbone’s pre-training employs an unsupervised PIML framework, embedding heat transfer partial differential equations and boundary conditions within the loss function and padding modes. The high-fidelity projection head with a simplified structure is then appended to the fixed backbone and trained by limited labeled data. Both the backbone and projection head are equipped with appropriate modules and linear-weighting loss functions to normalize convergence speed. The efficacy of the model simplification is verified by various battery experiments and simulations. Comparative results and ablation studies on heat map predictions demonstrate that the proposed MFPI-CNN outperforms traditional data-driven, physics-informed, and other multi-fidelity surrogate models.},
   doi={10.1016/j.ress.2024.110752},
   abbr={RESS},
-  annotation={¹ indicates co-first authorship},
+  annotation={† indicates co-first authorship},
 }
 
 @article{jiang2024iterative,
@@ -152,7 +152,21 @@
   pages={10510--10519},
   year={2024},
   publisher={IEEE},
+  doi={10.1109/TII.2024.3393536},
   abstract={Vold-Kalman filter (VKF) is a powerful tool for time-frequency (TF) decomposition of nonstationary signals. However, the overdependence on instantaneous frequency (IF) estimation, neglect of nonlinear initial phase, and improper bandwidth selection against noise interference limit its practical performance in mechatronic transmission fault diagnosis under variable speed conditions. This article proposes a novel signal processing method named iterative adaptive Vold–Kalman filter (IAVKF) to tackle the challenges in VKF and realize accurate IF estimation and fault dynamic feature extraction. Specifically, an improved VKF model is developed with the consideration of nonlinear initial phase and discrepancies between true and estimated IFs. Then, the estimated IF is refined by the recovered envelope to ameliorate TF resolution. Finally, an iterative bandwidth adaptation step is developed based on signal orthogonality to reduce noise interference and ensure algorithm convergence. Numerical analysis and two engineering applications in mechatronic transmission fault diagnosis are conducted, showing that IAVKF provides higher accuracy and efficiency in fault feature extraction and IF estimation.},
   abbr={IEEE TII},
+}
+
+@article{chen2025sparse,
+  title={Sparse LPV-ARMA model for non-stationary vibration representation and its application on gearbox tooth crack detection under variable speed conditions},
+  author={Chen, Yuejian and Li, Zihan and Jiang, Yuan and Gong, Dao and Zhou, Kai},
+  journal={Mechanical Systems and Signal Processing},
+  volume={224},
+  pages={112161},
+  year={2025},
+  publisher={Elsevier},
+  doi={10.1016/j.ymssp.2024.112161},
+  abstract={Time series models are effective in extracting periodic and trend properties from time series like gearbox vibration signals. However, gearboxes often operate under variable speed conditions which makes the vibration signal non-stationary. This paper proposes a sparse linear parameter-varying autoregressive moving average (Spa LPV-ARMA) model for non-stationary vibration representation. Gearbox fault detection under variable speed conditions can be achieved by examining model residuals. The proposed model combines the advantages of sparse time series modeling with ARMA modeling, and therefore can capture unforeseen random fluctuations and unexpected events in the data. Simulation and experimental studies are conducted to validate the performance of the proposed Spa LPV-ARMA model. Comprehensive comparisons with classical indicators, order spectra, envelope order spectra, ARIMA model, and Spa LPV-AR model are made. The results have shown that the Spa LPV-ARMA model performs best in both modeling and fault detection accuracy.},
+  abbr={MSSP},
 }
 
