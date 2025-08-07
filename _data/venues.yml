@@ -7,3 +7,27 @@
 
 "Vision":
   color: "#009f36"
+
+"RESS":
+  url: https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety
+  color: "#BB00A7"
+
+"MSSP":
+  url: https://www.sciencedirect.com/journal/mechanical-systems-and-signal-processing
+  color: "#BB00A7"
+
+"IEEE TII":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424
+  color: "#00369f"
+
+"IEEE IoTJ":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907
+  color: "#00369f"
+
+"JES":
+  url: https://www.sciencedirect.com/journal/journal-of-energy-storage
+  color: "#BB00A7"
+
+"ASME RISK":
+  url: https://asmedigitalcollection.asme.org/risk
+  color: "#009f36"

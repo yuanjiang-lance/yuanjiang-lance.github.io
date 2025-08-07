@@ -152,7 +152,7 @@
 @article{jiang2025multi,
   bibtex_show={true},
   title={Multi-fidelity physics-informed convolutional neural network for heat map prediction of battery packs},
-  author={Jiang¹, Yuan and Liu¹, Zheng and Kabirzadeh, Pouya and Wu, Yulun and Li, Yumeng and Miljkovic, Nenad and Wang, Pingfeng},
+  author={Jiang#, Yuan and Liu#, Zheng and Kabirzadeh, Pouya and Wu, Yulun and Li, Yumeng and Miljkovic, Nenad and Wang, Pingfeng},
   journal={Reliability Engineering \& System Safety},
   volume={256},
   pages={110752},
@@ -161,7 +161,7 @@
   abstract={The layout of battery cells in liquid-based battery thermal management systems determines the temperature distribution within a battery pack, which, in turn, affects the safety, reliability, and efficiency of the battery system. Therefore, real-time heat map prediction is of great importance for battery design optimization and control strategy refinement. However, the scarcity of high-fidelity data as well as the imperfections of low-fidelity physics knowledge significantly hinder the accuracy of both data-driven and physic-informed machine learning (PIML) surrogate models. To tackle these challenges, this paper proposes a novel multi-fidelity physics-informed convolutional neural network (MFPI-CNN) that integrates low-fidelity domain-specific knowledge with limited high-fidelity data to provide accurate and trustworthy real-time battery heat map estimations. First, to facilitate the integration of heat transfer knowledge into machine learning models, a complex three-dimensional battery heat transfer problem is simplified to an equivalent two-dimensional representation as low-fidelity physics knowledge. Then, the MFPI-CNN with a physics-informed backbone and a high-fidelity projection head is proposed to generate battery heat maps at various fidelity levels. The backbone’s pre-training employs an unsupervised PIML framework, embedding heat transfer partial differential equations and boundary conditions within the loss function and padding modes. The high-fidelity projection head with a simplified structure is then appended to the fixed backbone and trained by limited labeled data. Both the backbone and projection head are equipped with appropriate modules and linear-weighting loss functions to normalize convergence speed. The efficacy of the model simplification is verified by various battery experiments and simulations. Comparative results and ablation studies on heat map predictions demonstrate that the proposed MFPI-CNN outperforms traditional data-driven, physics-informed, and other multi-fidelity surrogate models.},
   doi={10.1016/j.ress.2024.110752},
   abbr={RESS},
-  annotation={<sup>1</sup> indicates co-first authorship},
+  annotation={<sup>#1</sup> indicates co-first authorship},
 }
 
 @article{chen2025sparse,
@@ -178,6 +178,35 @@
   abbr={MSSP},
 }
 
+@article{chen2025enhanced,
+  bibtex_show={true},
+  title={Enhanced sparse LPV-ARMA model with ensemble basis functions for mechatronic transmission fault detection under variable speed conditions},
+  author={Chen, Yuejian and Li, Zihan and Jiang, Yuan and Yang, Chunsheng and Xia, Min and Feng, Ke},
+  journal={IEEE Internet of Things Journal},
+  volume={12},
+  number={11},
+  pages={17223-17232},
+  year={2025},
+  publisher={IEEE},
+  doi={10.1109/JIOT.2025.3535580},
+  abstract={Fault detection in mechatronic transmissions is particularly challenging due to the nonstationary nature of monitoring signals arising from complex operating conditions, coupled with the high-safety requirements that limit the availability of fault data. Sparse linear parameter varying autoregressive moving average (Spa LPV-ARMA) model is a powerful tool for dealing with nonstationary time series, and good fitting results can be achieved through the basis function expansion, where parameters of the model are associated with additional variables. However, current research on Spa LPV-ARMA model only considers single basis function, overlooking the potential complementarity of multiple basis functions. This article proposes a novel enhanced Spa LPV-ARMA model with ensemble basis for mechatronic transmission fault detection. The proposed model incorporates the concept of ensemble learning by combining models with different basis functions, and a stepwise approach is utilized to select the models to be combined. The rational choice of the combination scale allows the ensemble model to have fewer parameters with higher accuracy. Simulation and experimental studies in mechatronic transmission are conducted, verifying that the proposed ensemble basis Spa LPV-ARMA model exhibits higher modeling accuracy and fault detection performance.},
+  abbr={IEEE IoTJ},
+}
+
+@article{kabirzadeh2025integrating,
+  bibtex_show={true},
+  title={Integrating heat transfer and control optimization: A comprehensive review of battery thermal management systems},
+  author={Kabirzadeh, Pouya and Liu, Zheng and Olyaei, Mostafa and Qiu, Haoyun and Gurumukhi, Yashraj and Tyagi, Harsh and Jiang, Yuan and Garimella, Vivek S and Singh, Bakhshish Preet and Li, Yumeng and others},
+  journal={Journal of Energy Storage},
+  volume={131},
+  pages={117289},
+  year={2025},
+  publisher={Elsevier},
+  doi={10.1016/j.est.2025.117289},
+  abstract={With advances in lithium-ion battery technology, electric vehicles (EVs) are becoming increasingly popular. Effective battery thermal management systems (BTMSs) are crucial for enhancing the performance and range of EVs. However, BTMS development is a multidisciplinary task requiring extensive domain knowledge across various fields, posing challenges for researchers to acquire this expertise simultaneously. This review comprehensively summarizes recent research on BTMS, considering aspects of battery electrochemistry, geometry, cooling methods, control techniques, and optimization algorithms. In terms of battery electrochemistry, principles of heat generation and commonly used models are discussed, along with survey of the adverse effects of temperature. For battery geometry, temperature gradients are analyzed within cells of different shapes and sizes, including cylindrical, pouch, and prismatic cells. The analysis of cooling methods includes air cooling, heat pipe-based cooling, indirect liquid cooling, phase change material cooling, single/two phase immersion cooling, and hybrid cooling for all mentioned battery variations, highlighting which methods are more practical in the industry. Additionally, system-level analyses of battery cooling methods have been investigated to understand their overall impact on EV performance. In addition to lithium-ion batteries, cooling methods for solid-state batteries are reviewed, along with strategies to mitigate thermal runaway. Furthermore, the review explores various control strategies for BTMS, including non-feedback control and feedback control. The analysis delves into different objective functions, constraints, design variables, and optimization algorithms relevant to BTMS optimization. This comprehensive analysis aims to provide a deep understanding of critical topics necessary for designing next-generation BTMS, ensuring enhanced performance, reliability, and safety for EVs.},
+  abbr={JES},
+}
+
 @article{liu2025uncertainty,
   bibtex_show={true},
   title={Uncertainty quantification of additively manufactured architected cellular materials for energy absorption applications},
@@ -190,6 +219,7 @@
   publisher={American Society of Mechanical Engineers},
   doi={10.1115/1.4066933},
   abstract={With advances in additive manufacturing (AM), the technology has significantly increased the applications in a wide range of industrial sectors. For example, stereolithography (SLA) has become a promising candidate for the mass production of energy absorption architected cellular materials due to its capability to fabricate complex material designs with advantageous characteristics. As stereolithography is being applied in different industrial settings, uncertainties become a critical factor that influences the performance of the products. As a solution, uncertainty quantification (UQ) is needed to understand the impact of uncertainties on the overall performance variability of the design and inform decision-makers to enhance system robustness and reliability better. This paper presented a novel framework for accelerated uncertainty quantification based on integrating physics-based computational modeling and data-driven surrogate models. The high-fidelity finite element model can be built and validated based on experimental tests. With an adaptive sampling technique, the surrogate model can be built with fewer expensive simulation runs while achieving a desirable modeling accuracy, saving the computational cost. Then, uncertainty quantification can be conducted accordingly using the developed surrogate model, which provides insights for the design and manufacturing decision-making processes of the architected cellular materials utilizing the additive manufacturing technology.},
+  abbr={ASME RISK},
 }
 
 
