@@ -34,20 +34,68 @@
             </tbody>
           </table>
         </div>
+
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.studyType }}</a>
-          </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
-          <ul class="items">
-            {% for item in content.courses %}
-              <li>
-                <span class="item">{{ item }}</span>
-              </li>
-            {% endfor %}
-          </ul>
+          <div class="row">
+            <div class="col-10">
+              <h6 class="title font-weight-bold ml-1 ml-md-4">
+                {{ content.studyType }}{% if content.institution %}, {{ content.institution }}{% endif %}
+              </h6>
+
+              <h6 class="ml-1 ml-md-4">
+                <span class="item" style="display: flex; justify-content: space-between; width: 100%;">
+                  <span>{{ content.area }}</span>
+                  {% if content.gpa %}<span style="text-align: center;">GPA: {{ content.gpa }}</span>{% endif %}
+                </span>
+              </h6>
+
+              {% if content.advisor %}
+                <h6 class="ml-1 ml-md-4"><span class="item">
+                  Advisor:
+                  {% if content.advisor_url %}
+                    <a href="{{ content.advisor_url }}" target="_blank">{{ content.advisor }}</a>
+                  {% else %}
+                    {{ content.advisor }}
+                  {% endif %}
+                </span></h6>
+              {% endif %}
+
+              <ul class="items">
+                {% for item in content.courses %}
+                  <li><span class="item">{{ item }}</span></li>
+                {% endfor %}
+              </ul>
+            </div>
+
+            <div class="col-2 d-flex justify-content-center align-items-start">
+              {% if content.logo %}
+                <img
+                  src="{{ 'assets/img/' | append: content.logo | relative_url }}"
+                  alt="{{ content.institution }}"
+                  style="max-height: 75px;"
+                >
+              {% endif %}
+            </div>
+          </div>
+
+          {% if content.lab %}
+            <div class="row">
+              <div class="col-12">
+                <h6 class="ml-1 ml-md-4">
+                  <span class="item">
+                    {% if content.lab_url %}
+                      <a href="{{ content.lab_url }}" target="_blank">{{ content.lab }}</a>
+                    {% else %}
+                      {{ content.lab }}
+                    {% endif %}
+                  </span>
+                </h6>
+              </div>
+            </div>
+          {% endif %}
+
         </div>
+          
       </div>
     </li>
   {% endfor %}
