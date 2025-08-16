@@ -18,11 +18,11 @@
 
 "IEEE TII":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424
-  color: "#00369f"
+  color: "#BB00A7"
 
 "IEEE IoTJ":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907
-  color: "#00369f"
+  color: "#BB00A7"
 
 "JES":
   url: https://www.sciencedirect.com/journal/journal-of-energy-storage
@@ -30,4 +30,22 @@
 
 "ASME RISK":
   url: https://asmedigitalcollection.asme.org/risk
+  color: "#BB00A7"
+
+"ITEC":
+  color: "#009f36"
+
+"RAMS":
+  color: "#009f36"
+
+"IDETC":
+  color: "#009f36"
+
+"IMECE":
+  color: "#009f36"
+
+"DAMAS":
+  color: "#009f36"
+
+"PHM":
   color: "#009f36"

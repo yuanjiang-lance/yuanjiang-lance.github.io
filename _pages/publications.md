@@ -19,8 +19,33 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-<div class="publications">
 
-{% bibliography %}
 
+<!-- Filter checkboxes -->
+<div id="pub-filter" style="margin-bottom: 1rem;">
+  <label><input type="checkbox" name="type" value="journal" onchange="applyFilters()"> Journal</label>
+  <label style="margin-left: 1rem;"><input type="checkbox" name="type" value="conference" onchange="applyFilters()"> Conference</label>
 </div>
+
+
+<!-- Publication entries start -->
+<div class="publications">
+{% bibliography %}
+</div>
+
+
+<script>
+function applyFilters() {
+  const checkboxes = document.querySelectorAll('#pub-filter input[type=checkbox]');
+  const selected = Array.from(checkboxes).filter(cb => cb.checked).map(cb => 'type-' + cb.value.toLowerCase());
+  const items = document.querySelectorAll('.publications .col-sm-10, .publications .col-sm-8');
+
+  items.forEach(item => {
+    const classes = item.className.split(' ');
+    const match = selected.length === 0 || selected.some(sel => classes.includes(sel));
+    item.parentElement.style.display = match ? 'flex' : 'none'; // hide the entire row
+  });
+}
+</script>
+
+

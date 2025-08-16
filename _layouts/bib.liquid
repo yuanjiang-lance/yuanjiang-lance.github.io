@@ -46,7 +46,8 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  {% assign type_class = entry.type | default: "none" | downcase | prepend: "type-" %}
+  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %} {{ type_class }}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->

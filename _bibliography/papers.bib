@@ -7,6 +7,7 @@
 # ----------- Publication 2025 -------------
 
 @article{jiang2025multi,
+  type={journal},
   selected={true},
   bibtex_show={true},
   title={Multi-fidelity physics-informed convolutional neural network for heat map prediction of battery packs},
@@ -23,7 +24,67 @@
   preview={jiang2025multi.png},
 }
 
+@inproceedings{jiang2025prognostics,
+  type={conference},
+  bibtex_show={true},
+  title={Prognostics of Hall thruster erosion using multiphysics-based modeling and machine learning},
+  author={Jiang, Yuan and Leeming, Alexandra N and Rovey, Joshua L and Wang, Pingfeng},
+  booktitle={2025 Annual Reliability and Maintainability Symposium (RAMS)},
+  pages={1--7},
+  year={2025},
+  organization={IEEE},
+  abstract={Hall thrusters, a type of propulsion device with high specific impulses, have gathered substantial interest within the aerospace community. However, the challenge of thruster wall erosion induced by sputtering impedes their stable and reliable function. This paper proposes a novel prognostic framework for estimating Hall thruster channel wall erosion based on multiphysics simulation and machine learning. First, a one-dimensional (1D) plasma discharge code is introduced to simulate plasma dynamics within discharge channel. Then, the erosion rate is quantified based on a semi-empirical sputter yield model. In addition, an erosion profile estimation loop is proposed to accommodate the 1D simulation while leveraging 2D erosion profiles. Finally, a machine-learning polynomial regression model serves as a surrogate model, facilitating efficient erosion rate estimations without extensive computations. Results and comparisons demonstrate that the proposed low-fidelity prognostic framework reliably reflects the erosion trends observed in high-fidelity models and experimental data, while reducing both simulation and testing requirements.},
+  doi={10.1109/RAMS48127.2025.10935282},
+  abbr={RAMS},
+}
+
+@inproceedings{liu2025physics,
+  type={conference},
+  bibtex_show={true},
+  title={Physics-informed machine learning for battery pack thermal management},
+  author={Liu#, Zheng and Jiang#, Yuan and Li, Yumeng and Wang, Pingfeng},
+  booktitle={2025 Annual Reliability and Maintainability Symposium (RAMS)},
+  pages={1--7},
+  year={2025},
+  organization={IEEE},
+  abstract={With the popularity of electric vehicles, the demand for lithium-ion batteries is increasing. Temperature significantly influences batteries' performance and safety. Battery thermal management systems can effectively control the temperature of batteries; therefore, batteries' performance and safety can be ensured. However, the development process of battery thermal management systems is time-consuming and costly due to the extensive training dataset needed by data-driven models requiring enormous computational costs for finite element analysis. Therefore, a new approach to constructing surrogate models is needed in the era of AI. Physics-informed machine learning enforces the physical laws in surrogate models, making it the perfect candidate for estimating battery pack temperature distribution. In this study, we first developed a 21700 battery pack indirect liquid cooling system with cold plates on the top and bottom with thermal paste surrounding the battery cells. Then, the simplified finite element model was built based on experiment results. Due to the high coolant flow rate, the cold plates can be considered as constant temperature boundaries, while battery cells are the heat sources. The physics-informed convolutional neural network served as a surrogate model to estimate the temperature distribution of the battery pack. The loss function was constructed considering the heat conduction equation based on the finite difference method. The physics-informed loss function helped the convergence of the training process with less data. As a result, the physics-informed convolutional neural network showed more than 15% improvement in accuracy compared to the data-driven method with the same training data.},
+  doi={10.1109/RAMS48127.2025.10935157},
+  abbr={RAMS},
+  annotation={<sup>#</sup> indicates equal contribution},
+}
+
+@inproceedings{yang2025transductive,
+  type={conference},
+  title={Transductive transfer learning features for prognostics and health management},
+  author={Yang, Shimeng and Jiang, Yuan and Liu, Zheng and Wang, Pingfeng},
+  booktitle={2025 Annual Reliability and Maintainability Symposium (RAMS)},
+  pages={1--7},
+  year={2025},
+  organization={IEEE},
+  abstract={This paper presents a comparison study of multiple feature extractors adapted from popular deep learning models for Prognostics and Health Management (PHM) in predicting remaining useful lives (RULs). The study focuses on the ability of these feature extractors in developing a domain- adversarial neural network to solve the domain shift problem in predicting RULs on unlabeled new datasets. The feature extractors are trained on the same labeled dataset and the extracted features are then fed into a benchmark regression model to predict the RUL values, therefore analyzing their applicability and effectiveness in transfer learning for PHM applications. The training and the evaluation studies have also been performed on the NASA turbofan engine degradation simulation dataset, which has four subsets each with different operating condition settings and failure modes thus having different marginal distribution of data. The evaluation phase consists of two experiments. In the first experiment, the accuracy of models with different feature extractors is evaluated by comparing the root mean square error values of the predicted RUL across various test subsets. The second experiment includes predicting the entire sequence of RULs of one engine until failure. These two case studies provide valuable insights about how different models handle varying degrees of domain shifts and their potential for accurate and reliable predictions in practical PHM applications.},
+  doi={10.1109/RAMS48127.2025.10935143},
+  abbr={RAMS},
+}
+
+@inproceedings{liu2025physics,
+  type={conference},
+  bibtex_show={true},
+  title={Physics-informed machine learning enhanced battery pack optimization},
+  author={Liu#, Zheng and Jiang#, Yuan and Li, Yumeng and Wang, Pingfeng},
+  booktitle={2025 IEEE/AIAA Transportation Electrification Conference and Electric Aircraft Technologies Symposium (ITEC+ EATS)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE},
+  abstract={The popularity of transportation electrification has increased the demand for battery thermal management systems. Among different battery thermal management systems, indirect liquid cooling is a promising candidate to ensure systems' performance, safety, and reliability. Temperature uniformity is important for systems' safety and needs to be optimized. However, the optimization process for indirect liquid cooling is prolonged due to the complexity of the system. Though finite element simulation can greatly save efforts on experimental testing, the computational cost required by the finite element simulation is high, especially for generating a large training dataset for constructing the surrogate model. Thus, adapting physics-informed machine learning to accelerate the optimization process is crucial. By integrating physics-informed loss functions into the surrogate model, together with the optimization framework, the battery thermal management systems can be improved. Based on the developed experimental testing and the high-fidelity multiphysics finite element model, the geometry can be simplified, and the complexity of the problem can be reduced. Based on the simplified heat conduction function, a physics-informed convolutional neural network was developed as a surrogate model to estimate the temperature distribution of the battery pack. This network contains a loss function considering the heat conduction equation based on the finite difference method, helping the convergence of the training process with less data. Finally, the optimal battery layout designs were obtained based on the two different optimization algorithms, showing a 7.2% improvement in temperature uniformity for the battery cells, improving the battery pack's performance and safety.},
+  doi={10.1109/ITEC63604.2025.11098093},
+  annotation={<sup>#</sup> indicates equal contribution},
+  abbr={ITEC},
+}
+
+
+
 @article{chen2025sparse,
+  type={journal},
   bibtex_show={true},
   title={Sparse LPV-ARMA model for non-stationary vibration representation and its application on gearbox tooth crack detection under variable speed conditions},
   author={Chen, Yuejian and Li, Zihan and Jiang, Yuan and Gong, Dao and Zhou, Kai},
@@ -39,6 +100,7 @@
 }
 
 @article{chen2025enhanced,
+  type={journal},
   bibtex_show={true},
   title={Enhanced sparse LPV-ARMA model with ensemble basis functions for mechatronic transmission fault detection under variable speed conditions},
   author={Chen, Yuejian and Li, Zihan and Jiang, Yuan and Yang, Chunsheng and Xia, Min and Feng, Ke},
@@ -55,6 +117,7 @@
 }
 
 @article{kabirzadeh2025integrating,
+  type={journal},
   bibtex_show={true},
   title={Integrating heat transfer and control optimization: A comprehensive review of battery thermal management systems},
   author={Kabirzadeh, Pouya and Liu, Zheng and Olyaei, Mostafa and Qiu, Haoyun and Gurumukhi, Yashraj and Tyagi, Harsh and Jiang, Yuan and Garimella, Vivek S and Singh, Bakhshish Preet and Li, Yumeng and Wang, Pingfeng and Miljkovic, Nenad},
@@ -66,9 +129,11 @@
   doi={10.1016/j.est.2025.117289},
   abstract={With advances in lithium-ion battery technology, electric vehicles (EVs) are becoming increasingly popular. Effective battery thermal management systems (BTMSs) are crucial for enhancing the performance and range of EVs. However, BTMS development is a multidisciplinary task requiring extensive domain knowledge across various fields, posing challenges for researchers to acquire this expertise simultaneously. This review comprehensively summarizes recent research on BTMS, considering aspects of battery electrochemistry, geometry, cooling methods, control techniques, and optimization algorithms. In terms of battery electrochemistry, principles of heat generation and commonly used models are discussed, along with survey of the adverse effects of temperature. For battery geometry, temperature gradients are analyzed within cells of different shapes and sizes, including cylindrical, pouch, and prismatic cells. The analysis of cooling methods includes air cooling, heat pipe-based cooling, indirect liquid cooling, phase change material cooling, single/two phase immersion cooling, and hybrid cooling for all mentioned battery variations, highlighting which methods are more practical in the industry. Additionally, system-level analyses of battery cooling methods have been investigated to understand their overall impact on EV performance. In addition to lithium-ion batteries, cooling methods for solid-state batteries are reviewed, along with strategies to mitigate thermal runaway. Furthermore, the review explores various control strategies for BTMS, including non-feedback control and feedback control. The analysis delves into different objective functions, constraints, design variables, and optimization algorithms relevant to BTMS optimization. This comprehensive analysis aims to provide a deep understanding of critical topics necessary for designing next-generation BTMS, ensuring enhanced performance, reliability, and safety for EVs.},
   abbr={JES},
+  preview={kabirzadeh2025integrating.png},
 }
 
 @article{liu2025uncertainty,
+  type={journal},
   bibtex_show={true},
   title={Uncertainty quantification of additively manufactured architected cellular materials for energy absorption applications},
   author={Liu#, Zheng and Xu#, Yanwen and Jiang#, Yuan and Renteria#, Anabel and Bansal, Parth and Xu, Chenlong and Wang, Pingfeng and Li, Yumeng},
@@ -88,6 +153,7 @@
 # ----------- Publication 2024 -------------
 
 @article{jiang2024iterative,
+  type={journal},
   selected={true},
   bibtex_show={true},
   title={An iterative adaptive Vold--Kalman filter for nonstationary signal decomposition in mechatronic transmission fault diagnosis under variable speed conditions},
@@ -101,11 +167,28 @@
   doi={10.1109/TII.2024.3393536},
   abstract={Vold-Kalman filter (VKF) is a powerful tool for time-frequency (TF) decomposition of nonstationary signals. However, the overdependence on instantaneous frequency (IF) estimation, neglect of nonlinear initial phase, and improper bandwidth selection against noise interference limit its practical performance in mechatronic transmission fault diagnosis under variable speed conditions. This article proposes a novel signal processing method named iterative adaptive Vold–Kalman filter (IAVKF) to tackle the challenges in VKF and realize accurate IF estimation and fault dynamic feature extraction. Specifically, an improved VKF model is developed with the consideration of nonlinear initial phase and discrepancies between true and estimated IFs. Then, the estimated IF is refined by the recovered envelope to ameliorate TF resolution. Finally, an iterative bandwidth adaptation step is developed based on signal orthogonality to reduce noise interference and ensure algorithm convergence. Numerical analysis and two engineering applications in mechatronic transmission fault diagnosis are conducted, showing that IAVKF provides higher accuracy and efficiency in fault feature extraction and IF estimation.},
   abbr={IEEE TII},
+  preview={jiang2024iterative.png},
+}
+
+@inproceedings{bansal2024multiphysics,
+  type={conference},
+  bibtex_show={true},
+  title={Multiphysics modeling and simulation of gas sensor for NO2 detection},
+  author={Bansal, Parth and Jiang, Yuan and Li, Zhou and Cordero, Sergio and Heussen, Zahra and Senesky, Debbie and Wang, Pingfeng and Li, Yumeng},
+  booktitle={ASME International Mechanical Engineering Congress and Exposition},
+  volume={88681},
+  pages={V010T13A009},
+  year={2024},
+  organization={American Society of Mechanical Engineers},
+  abstract={Amid rising environmental concerns, this study looks into the importance of advanced gas sensing technologies through computational modeling and simulation. Utilizing the capabilities of COMSOL Multiphysics software, an examination is conducted on the performance of an innovative gas sensor featuring SnO2/reduced graphene oxide (rGO) nanocomposites designed for Nitrogen Dioxide (NO2) detection. The integration of modules for laminar flow, electric current, heat transfer, and electric species transport facilitates a thorough analysis of the sensor’s behavior under varied operational conditions. Through finite element simulations, the complex interaction between material characteristics, surface morphology, and environmental factors is explored, offering predictive insights into NO2 sensing mechanisms. Anchored in experimental data, the sensor design serves as the foundation for simulation, enabling virtual exploration of performance improvements and optimization strategies. Validation against experimental results, reported by Zhang et al., ensures the credibility and reliability of the computational model, confirming its usefulness as a predictive tool for sensor development. This approach shows promise in accelerating the advancement of gas sensing technologies, thus aiding in the creation of high-performance sensors with enhanced sensitivity and selectivity for critical environmental monitoring and industrial applications.},
+  doi={10.1115/IMECE2024-145663},
+  abbr={IMECE},
 }
 
 # ----------- Publication 2022 -------------
 
 @article{jiang2022iterative,
+  type={journal},
   selected={true},
   bibtex_show={true},
   title={An iterative frequency-domain envelope-tracking filter for dispersive signal decomposition in structural health monitoring},
@@ -120,3 +203,50 @@
   abbr={MSSP},
   preview={jiang2022iterative.jpg},
 }
+
+@inproceedings{jiang2022rail,
+  type={conference},
+  bibtex_show={true},
+  title={Rail local damage detection based on recursive frequency-domain envelope tracking filter and rail impact index},
+  author={Jiang, Yuan and Niu, Gang},
+  booktitle={2022 Global Reliability and Prognostics and Health Management (PHM-Yantai)},
+  pages={1--7},
+  year={2022},
+  organization={IEEE},
+  abstract={Rail local damages, including dislocation joint, dipped joint, joint gap and surface spalling, are frequently identified in real-life scenarios, yielding high noise, discomfort and even security issue of a train. In this study, a rail local damage detection method is proposed. First, the group delay of vibration impulse on wheel set is estimated with the use of squared envelope. Then, a novel dispersive signal decomposition method, recursive frequency-domain envelope tracking filter (RFETF), which reconstruct signal mode in frequency domain, is proposed for impulse extraction. The procedure of recovering different impulsive modes is executed iteratively rather than simultaneously, reducing the computation memory of algorithm. Finally, after extracting impulse response of vibration signal, the rail impact index (RII) is adopted for damage localization and health assessment. Results on real-life tram data demonstrate the proposed method is more effective than traditional time-related rail damage detecting methods.},
+  doi={10.1109/PHM-Yantai55411.2022.9942082},
+  abbr={PHM},
+}
+
+@inproceedings{zhao2022tacholess,
+  type={conference},
+  bibtex_show={true},
+  title={A tacholess order tracking method based on extended intrinsic chirp component decomposition for gears under large speed variation conditions},
+  author={Zhao, Hongyang and Jiang, Yuan and Niu, Gang},
+  booktitle={Journal of Physics: Conference Series},
+  volume={2184},
+  number={1},
+  pages={012052},
+  year={2022},
+  organization={IOP Publishing},
+  abstract={Order tracking has been considered as the most effective non-stationary signal analysis technique for condition monitoring and fault diagnosis. Conventional order tracking is performed with a reference signal measured by the auxiliary device, which is expensive and inconvenient to install. In order to to break the constraint of the traditional order tracking technique, some tacholess order tracking methods have been developed in the past few years. However, current tacholess order tracking approaches are only applicable to slightly varying speed applications. To overcome the shortcoming above, a novel tacholess order tracking method is proposed in this paper. In the proposed method, each mode of the vibration signal is reconstructed by a method called extended intrinsic chirp component decomposition, and the Hilbert transform is used to estimate the instantaneous phase of reference shaft. Then the vibration signal is resampled to the angle domain, and the fault characteristic orders can be identified in the order spectrum accurately. The effectiveness of the proposed method has been validated by a simulated meshing gear vibration signal. The result illustrates that the proposed method can realize gears fault diagnosis under large speed variation conditions.},
+  doi={10.1088/1742-6596/2184/1/012052},
+  abbr={DAMAS},
+}
+
+# ----------- Publication 2021 -------------
+
+@inproceedings{jiang2021intelligent,
+  type={conference},
+  bibtex_show={true},
+  title={Intelligent rolling bearing fault diagnosis under variable speed conditions without tachometers},
+  author={Jiang, Yuan and Zhao, Hongyang and Niu, Gang},
+  booktitle={2021 Global Reliability and Prognostics and Health Management (PHM-Nanjing)},
+  pages={1--7},
+  year={2021},
+  organization={IEEE},
+  abstract={Under variable speed conditions, vibration signal of rolling bearings exhibits non-stationary characteristics, which makes traditional stationary fault diagnosis methods no longer applicable. In this study, an intelligent fault diagnosis method for rolling bearings under variable speed and tacholess conditions is proposed. First, with the use of instantaneous phase of the shaft estimated by variational nonlinear chirp mode decomposition (VNCMD), the collected non-stationary time-domain vibration signals and their envelope can be resampled and transformed into stationary angle-domain signals by tacholess order tracking (TLOT). Then, one-dimensional signals are converted to two-dimensional images by dimension increase, normalization and image compression. Finally, the fault type of rolling bearings is obtained utilizing improved LeNet-5 convolutional neural network (CNN). Results on experimental data of rolling bearings under variable speed conditions demonstrate the proposed method is more effective than traditional stationary methods.},
+  doi={10.1109/PHM-Nanjing52125.2021.9613049},
+  abbr={PHM},
+}
+
