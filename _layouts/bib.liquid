@@ -1,6 +1,6 @@
 ---
 ---
-<div class="row">
+<div class="row publication-entry" data-type="{{ entry.type }}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -46,8 +46,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  {% assign type_class = entry.type | default: "none" | downcase | prepend: "type-" %}
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %} {{ type_class }}">
+  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
