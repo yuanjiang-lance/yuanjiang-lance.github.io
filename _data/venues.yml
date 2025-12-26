@@ -32,6 +32,10 @@
   url: https://asmedigitalcollection.asme.org/risk
   color: "#BB00A7"
 
+"ASME JMD":
+  url: https://asmejmd.org/
+  color: "#BB00A7"
+
 "ITEC":
   color: "#009f36"
 
@@ -49,3 +53,4 @@
 
 "PHM":
   color: "#009f36"
+

@@ -3,11 +3,24 @@
 
 # ----------- Publication 2025 -------------
 
+@article{jiang2026remaining,
+  selected={true},
+  bibtex_show={true},
+  title={Remaining useful life prediction for Hall thrusters based on adaptive self-cognizant dynamic system and multi-physics modeling},
+  author={Jiang, Yuan and Leeming, Alexandra N and Rovey, Joshua L and Wang, Pingfeng},
+  journal={Journal of Mechanical Design},
+  year={2026},
+  publisher={American Society of Mechanical Engineers},
+  abstract={Hall thrusters, characterized by high specific impulses and extended operational durations, are increasingly recognized as promising electric propulsion devices for long-duration missions and station-keeping of cislunar satellites. However, the failure of channel wall erosion induced by sputtering remains a significant challenge, compromising the functionality and reliability of Hall thrusters. This paper proposes a novel Hall thruster remaining useful life (RUL) prediction approach based on adaptive self-cognizant dynamic system (ASDS) with multi-physics modeling. First, a low-fidelity plasma discharge model and a semi-empirical sputter model are integrated to reveal the erosion mechanism and efficiently generate degradation data. Then, a state-space ASDS model, employing fully-connected neural networks (FCNNs) as system modelers, is established based on the erosion mechanism and trained offline using simulation data. Upon receiving online telemetry observations, the state of health (SOH) and FCNN parameters are estimated and updated through the particle filter. The RUL and its distribution are finally predicted by forwarding SOH across different particles. Case study on SPT-100 Hall thruster validates the effectiveness of the proposed ASDS approach, which not only captures the fundamental failure mechanisms and adjusts to system variations, but also provides the uncertainty of RUL as valuable prior information for thruster refueling and maintenance decision-making.},
+  abbr={ASME JMD},
+  additional_info={**ASME DAC Paper of Distinction** (Top 10 over 103)},
+}
+
 @article{jiang2025multi,
   selected={true},
   bibtex_show={true},
   title={Multi-fidelity physics-informed convolutional neural network for heat map prediction of battery packs},
-  author={Jiang#, Yuan and Liu#, Zheng and Kabirzadeh, Pouya and Wu, Yulun and Li, Yumeng and Miljkovic, Nenad and Wang, Pingfeng},
+  author={Jiang, Yuan and Liu, Zheng and Kabirzadeh, Pouya and Wu, Yulun and Li, Yumeng and Miljkovic, Nenad and Wang, Pingfeng},
   journal={Reliability Engineering \& System Safety},
   volume={256},
   pages={110752},
@@ -16,7 +29,6 @@
   abstract={The layout of battery cells in liquid-based battery thermal management systems determines the temperature distribution within a battery pack, which, in turn, affects the safety, reliability, and efficiency of the battery system. Therefore, real-time heat map prediction is of great importance for battery design optimization and control strategy refinement. However, the scarcity of high-fidelity data as well as the imperfections of low-fidelity physics knowledge significantly hinder the accuracy of both data-driven and physic-informed machine learning (PIML) surrogate models. To tackle these challenges, this paper proposes a novel multi-fidelity physics-informed convolutional neural network (MFPI-CNN) that integrates low-fidelity domain-specific knowledge with limited high-fidelity data to provide accurate and trustworthy real-time battery heat map estimations. First, to facilitate the integration of heat transfer knowledge into machine learning models, a complex three-dimensional battery heat transfer problem is simplified to an equivalent two-dimensional representation as low-fidelity physics knowledge. Then, the MFPI-CNN with a physics-informed backbone and a high-fidelity projection head is proposed to generate battery heat maps at various fidelity levels. The backbone’s pre-training employs an unsupervised PIML framework, embedding heat transfer partial differential equations and boundary conditions within the loss function and padding modes. The high-fidelity projection head with a simplified structure is then appended to the fixed backbone and trained by limited labeled data. Both the backbone and projection head are equipped with appropriate modules and linear-weighting loss functions to normalize convergence speed. The efficacy of the model simplification is verified by various battery experiments and simulations. Comparative results and ablation studies on heat map predictions demonstrate that the proposed MFPI-CNN outperforms traditional data-driven, physics-informed, and other multi-fidelity surrogate models.},
   doi={10.1016/j.ress.2024.110752},
   abbr={RESS},
-  annotation={<sup>#</sup> indicates equal contribution},
   preview={jiang2025multi.png},
 }
 
@@ -72,11 +84,9 @@
   organization={IEEE},
   abstract={The popularity of transportation electrification has increased the demand for battery thermal management systems. Among different battery thermal management systems, indirect liquid cooling is a promising candidate to ensure systems' performance, safety, and reliability. Temperature uniformity is important for systems' safety and needs to be optimized. However, the optimization process for indirect liquid cooling is prolonged due to the complexity of the system. Though finite element simulation can greatly save efforts on experimental testing, the computational cost required by the finite element simulation is high, especially for generating a large training dataset for constructing the surrogate model. Thus, adapting physics-informed machine learning to accelerate the optimization process is crucial. By integrating physics-informed loss functions into the surrogate model, together with the optimization framework, the battery thermal management systems can be improved. Based on the developed experimental testing and the high-fidelity multiphysics finite element model, the geometry can be simplified, and the complexity of the problem can be reduced. Based on the simplified heat conduction function, a physics-informed convolutional neural network was developed as a surrogate model to estimate the temperature distribution of the battery pack. This network contains a loss function considering the heat conduction equation based on the finite difference method, helping the convergence of the training process with less data. Finally, the optimal battery layout designs were obtained based on the two different optimization algorithms, showing a 7.2% improvement in temperature uniformity for the battery cells, improving the battery pack's performance and safety.},
   doi={10.1109/ITEC63604.2025.11098093},
-  annotation={<sup>#</sup> indicates equal contribution},
   abbr={ITEC},
+  annotation={<sup>#</sup> indicates equal contribution},
 }
-
-
 
 @article{chen2025sparse,
   bibtex_show={true},
@@ -127,7 +137,7 @@
 @article{liu2025uncertainty,
   bibtex_show={true},
   title={Uncertainty quantification of additively manufactured architected cellular materials for energy absorption applications},
-  author={Liu#, Zheng and Xu#, Yanwen and Jiang#, Yuan and Renteria#, Anabel and Bansal, Parth and Xu, Chenlong and Wang, Pingfeng and Li, Yumeng},
+  author={Liu, Zheng and Xu, Yanwen and Jiang, Yuan and Renteria, Anabel and Bansal, Parth and Xu, Chenlong and Wang, Pingfeng and Li, Yumeng},
   journal={ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems, Part B: Mechanical Engineering},
   volume={11},
   number={3},
@@ -137,7 +147,6 @@
   doi={10.1115/1.4066933},
   abstract={With advances in additive manufacturing (AM), the technology has significantly increased the applications in a wide range of industrial sectors. For example, stereolithography (SLA) has become a promising candidate for the mass production of energy absorption architected cellular materials due to its capability to fabricate complex material designs with advantageous characteristics. As stereolithography is being applied in different industrial settings, uncertainties become a critical factor that influences the performance of the products. As a solution, uncertainty quantification (UQ) is needed to understand the impact of uncertainties on the overall performance variability of the design and inform decision-makers to enhance system robustness and reliability better. This paper presented a novel framework for accelerated uncertainty quantification based on integrating physics-based computational modeling and data-driven surrogate models. The high-fidelity finite element model can be built and validated based on experimental tests. With an adaptive sampling technique, the surrogate model can be built with fewer expensive simulation runs while achieving a desirable modeling accuracy, saving the computational cost. Then, uncertainty quantification can be conducted accordingly using the developed surrogate model, which provides insights for the design and manufacturing decision-making processes of the architected cellular materials utilizing the additive manufacturing technology.},
   abbr={ASME RISK},
-  annotation={<sup>#</sup> indicates equal contribution},
   preview={liu2025uncertainty.png},
 }
 
@@ -203,7 +212,7 @@
   abstract={Rail local damages, including dislocation joint, dipped joint, joint gap and surface spalling, are frequently identified in real-life scenarios, yielding high noise, discomfort and even security issue of a train. In this study, a rail local damage detection method is proposed. First, the group delay of vibration impulse on wheel set is estimated with the use of squared envelope. Then, a novel dispersive signal decomposition method, recursive frequency-domain envelope tracking filter (RFETF), which reconstruct signal mode in frequency domain, is proposed for impulse extraction. The procedure of recovering different impulsive modes is executed iteratively rather than simultaneously, reducing the computation memory of algorithm. Finally, after extracting impulse response of vibration signal, the rail impact index (RII) is adopted for damage localization and health assessment. Results on real-life tram data demonstrate the proposed method is more effective than traditional time-related rail damage detecting methods.},
   doi={10.1109/PHM-Yantai55411.2022.9942082},
   abbr={PHM},
-  additional_info={**Best Paper Award**},
+  additional_info={**IEEE PHM Best Paper Award** (Top 1 over 274)},
 }
 
 @inproceedings{zhao2022tacholess,
@@ -225,7 +234,6 @@
 # ----------- Publication 2021 -------------
 
 @inproceedings{jiang2021intelligent,
-  selected={true},
   bibtex_show={true},
   title={Intelligent rolling bearing fault diagnosis under variable speed conditions without tachometers},
   author={Jiang, Yuan and Zhao, Hongyang and Niu, Gang},

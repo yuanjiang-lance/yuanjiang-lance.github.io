@@ -174,13 +174,27 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% if entry.additional_info %}. {{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}{% endcapture %}
+    {% capture periodical %}
+    {{ entrytype }}
+    {% if entrytype_text != "" and entryyear != "" %}, {% endif %}
+    {{ entrymonth }}{{ entryyear }}
+    {% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+    {% if entry.additional_info %}
+      <ul class="publication-awards">
+        {% assign awards = entry.additional_info | split: ';' %}
+        {% for award in awards %}
+          <li>
+            {{ award | markdownify | remove: '<p>' | remove: '</p>' }}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">

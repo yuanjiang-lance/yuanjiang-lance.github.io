@@ -26,11 +26,18 @@ latest_posts:
 
 **Hi, I'm glad you're here!** 
 
-I'm a 3rd-year Ph.D. candidate in Industrial Engineering at the University of Illinois Urbana-Champaign (UIUC), where I'm fortunate to be advised by [Prof. Pingfeng Wang](https://ise.illinois.edu/directory/profile/pingfeng). I'm deeply committed to harnessing the power of <span style="color: var(--global-theme-color);">physics-informed machine learning</span> and <span style="color: var(--global-theme-color);">digital twin</span> technologies to build smarter, safer, and more reliable engineering systems. My work broadly contributes to <span style="color: var(--global-theme-color);">prognostics and health management (PHM)</span> and <span style="color: var(--global-theme-color);">reliability-based design optimization (RBDO)</span> -- pushing the boundaries of how we monitor, predict, and optimize the performance of complex physical systems.
+I'm a 3rd-year Ph.D. candidate in Industrial Engineering at the [University of Illinois Urbana-Champaign (UIUC)](https://ise.illinois.edu/), advised by [Prof. Pingfeng Wang](https://ise.illinois.edu/directory/profile/pingfeng). Prior to UIUC, I received both my B.S. and M.S. degrees in Vehicle Engineering from the [Institute of Rail Transit](https://railway.tongji.edu.cn/) at [Tongji University](https://www.tongji.edu.cn/), where I worked with [Prof. Gang Niu](https://tjjt.tongji.edu.cn/info/2943/10978.htm).
 
-Before joining UIUC, I received both my Bachelor's and Master's degrees in Vehicle Engineering from the Institute of Rail Transit at Tongji University, where I worked with [Prof. Gang Niu](https://tjjt.tongji.edu.cn/info/2943/10978.htm) on <span style="color: var(--global-theme-color);">advanced signal processing</span> for mechatronic transmission <span style="color: var(--global-theme-color);">fault diagnosis</span> and <span style="color: var(--global-theme-color);">structural health monitoring</span>. 
+My research broadly contributes to **prognostics and health management (PHM)** and **reliability-based design optimization (RBDO)**, with a particular focus on closing the gap between high-fidelity physics-based models and data-limited real-world systems.I'm deeply committed to harnessing the power of **scientific machine learning** and **digital twin** technologies to build **model-aware and data-efficient methods** that integrate physical laws, numerical simulations, and learning-based models, enabling smarter, safer, and more reliable engineering systems in aerospace propulsion, energy storage, and mechatronic transmissions. 
 
 I enjoy solving physics-driven engineering problems with data-limited, model-aware AI tools. Whether you're a fellow researcher, a student, or just someone curious about my work, feel free to browse around and reach out if anything interests you.
+
+## Research Interests
+
+1. **Scientific machine learning**: physics-informed machine learning, neural operator, generative model
+2. **Digital twin**: finite-element simulation, plasma dynamics, multi-fidelity modeling and data fusion
+3. **Prognostics and health management**: advanced signal processing, condition monitoring, fault diagnosis, remaining useful life prediction
+4. **Reliability-based design optimization**: Bayesian methods, reliability analysis, uncertainty quantification
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

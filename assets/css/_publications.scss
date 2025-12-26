@@ -1,0 +1,28 @@
+/* ===============================
+   Custom publication styles
+   =============================== */
+
+.publication-awards {
+  margin-top: 0.25rem;
+  margin-bottom: 0.15rem;
+  padding-left: 1.2rem;
+  font-size: 1.0rem;
+  color: #444;
+}
+
+.publication-awards li {
+  list-style-type: disc;
+  margin: 0;              
+  padding: 0;
+  line-height: 1.3;      
+}
+
+.publication-awards li::marker {
+  font-size: 1.0em;
+}
+
+.publications ol.bibliography li ul.publication-awards li {
+  margin-bottom: 0 !important;
+  line-height: 1.5;
+  padding: 0;
+}
