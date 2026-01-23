@@ -83,3 +83,50 @@
     {% endif %}
   {% endfor %}
 </ul>
+
+
+<hr style="
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 0.5em 0 0.8em 0;
+">
+
+
+<div style="
+  margin-top:1.2em;
+  margin-bottom:0.6em;
+  font-size:1.35em;
+  font-weight:200;
+">
+  Service Awards
+</div>
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for content in data[1] %}
+    {% if content.type == "service" %}
+      <li class="list-group-item" style="border: none;">
+        <div class="row">
+          <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+            {% if content.date %} {% assign date = content.date | split: '-' | join: '.' %} {% else %} {% assign date = '' %} {% endif %}
+            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
+          </div>
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            <h6 class="title font-weight-bold ml-1 ml-md-4">
+              {% if content.url contains '://' %}
+                <a href="{{ content.url }}" target="_blank">
+                  {{ content.title }}
+                </a>
+              {% else %}
+                <a href="{{ content.url | relative_url }}" target="_blank">
+                  {{ content.title }}
+                </a>
+              {% endif %}
+            </h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.awarder }}</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
+          </div>
+        </div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
