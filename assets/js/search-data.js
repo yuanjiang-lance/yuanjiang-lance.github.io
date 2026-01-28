@@ -470,7 +470,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/yuan-jiang-ab019b204", "_blank");
+          window.open("https://www.linkedin.com/in/yuanjiang-phm", "_blank");
         },
       },{
         id: 'social-email',
