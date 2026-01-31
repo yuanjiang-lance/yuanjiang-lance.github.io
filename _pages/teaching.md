@@ -33,10 +33,9 @@ nav_order: 5
   </span>
 </div>
 
-- Graded assignments and exams, proctored exams, and held weekly office hours for 26 students in 1 session.
-- Delivered 2 lectures on reliability analysis and reliability-based design optimization (RBDO).
-- Delivered 3 exam review lectures along with problem-solving tutorials.
-- Designed an RBDO course project and guided students on algorithm implementation and coding.
+- Delivered guest lectures on reliability analysis and reliability-based design optimization, covering problem formulation, algorithmic implementation, and engineering interpretation.
+- Designed an RBDO course project and mentored students on modeling, optimization algorithms, and coding implementation.
+- Led exam review sessions with structured problem-solving tutorials to reinforce core concepts and analytical skills.
 
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
@@ -62,8 +61,8 @@ nav_order: 5
   </span>
 </div>
 
-- Graded assignments and exams, and held weekly office hours for 83 students in 2 sessions.
-- Delivered 3 exam review lectures along with problem-solving tutorials.
+- Contributed to undergraduate instruction by leading discussion sections and providing academic support via office hours.
+- Delivered exam review lectures covering multivariate decision making, decision trees, and uncertainty-based decision making, with an emphasis on systematic problem formulation and solution strategies.
 
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
@@ -89,9 +88,9 @@ nav_order: 5
   </span>
 </div>
 
-- Graded assignments and exams, proctored exams, and held weekly office hours for 47 students in 1 session.
-- Instructed student experiments on bearing and gearbox test rigs, including setup, sampling theory, data acquisition, and data analysis software. 
-- Instructed data processing and fault diagnosis using FFT, wavelet transforms, and machine learning algorithms.
+- Supported course delivery by assisting lectures and coordinating laboratory components for an undergraduate course.
+- Led laboratory sessions on bearing and gearbox test rigs, covering experimental setup, data acquisition, and signal processing. 
+- Instructed students on vibration-based fault diagnosis using FFT, wavelet transforms, and machine learning methods.
 
 
 <!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.

@@ -13,14 +13,14 @@
       "city": "Urbana",
       "countryCode": "US",
       "region": "Illinois"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    }
+    // "profiles": [
+    //   {
+    //     "network": "Twitter",
+    //     "username": "AlbertEinstein",
+    //     "url": "https://twitter.com/AlbertEinstein"
+    //   }
+    // ]
   },
   "education": [
     {
@@ -33,8 +33,8 @@
       // "gpa": "4.0/4.0",
       "advisor": "Prof. Pingfeng Wang",
       "advisor_url": "https://ise.illinois.edu/directory/profile/pingfeng",
-      "lab": "Reliability Analysis & Safety Assurance (RASA) Laboratory",
-      "lab_url": "https://rasalab.ise.illinois.edu/",
+      // "lab": "Reliability Analysis & Safety Assurance (RASA) Laboratory",
+      // "lab_url": "https://rasalab.ise.illinois.edu/",
       "logo": "UIUC_logo.png"
     },
     {
@@ -47,9 +47,9 @@
       // "gpa": "4.76/5.0",
       "advisor": "Prof. Gang Niu",
       "advisor_url": "https://tjjt.tongji.edu.cn/info/2943/10978.htm",
-      "lab": "Intelligent Maintenance & Autonomous Systems (IMAS) Group",
-      "logo": "Tongji_logo.png",
-      "thesis": "Time-frequency feature extraction and health monitoring of rail short-pitch damage"
+      // "lab": "Intelligent Maintenance & Autonomous Systems (IMAS) Group",
+      "logo": "Tongji_logo.png"
+      // "thesis": "Time-frequency feature extraction and health monitoring of rail short-pitch damage"
     },
     {
       "institution": "Tongji University",
@@ -59,13 +59,30 @@
       "startDate": "2015-09-01",
       "endDate": "2020-07-01",
       // "gpa": "4.83/5.0",
-      "logo": "Tongji_logo.png",
-      "advisor": "Prof. Gang Niu",
-      "advisor_url": "https://tjjt.tongji.edu.cn/info/2943/10978.htm",
-      "thesis": "Condition monitoring and degradation prognostics for train bogie bearings"
+      "logo": "Tongji_logo.png"
+      // "advisor": "Prof. Gang Niu",
+      // "advisor_url": "https://tjjt.tongji.edu.cn/info/2943/10978.htm",
+      // "thesis": "Condition monitoring and degradation prognostics for train bogie bearings"
     }
   ],
   "publications": [
+    {
+      "type": "journal",
+      "title": "Remaining useful life prediction for Hall thrusters based on adaptive self-cognizant dynamic system and multi-physics modeling",
+      "venue": "Journal of Mechanical Design",
+      "pages": "1-27",
+      "year": "2026",
+      "doi": "10.1115/1.4070967",
+      "authors": [
+        { "name": "Yuan Jiang", "self": true },
+        { "name": "Alexandra N. Leeming" },
+        { "name": "Joshua L. Rovey" },
+        { "name": "Pingfeng Wang" }
+      ],
+      "remarks": [
+        "ASME DAC Paper of Distinction (Top 10 over 103)"
+      ]
+    },
     {
       "type": "journal",
       "title": "Multi-fidelity Physics-informed Convolutional Neural Network for Heat Map Prediction of Battery Packs",
@@ -186,24 +203,6 @@
       "authors": [
         { "name": "Yuan Jiang", "self": true },
         { "name": "Gang Niu" }
-      ]
-    },
-    {
-      "type": "conference",
-      "title": "Remaining Useful Life Prediction for Hall Thrusters Based on Adaptive Self-Cognizant Dynamic System and Multi-Physics Modeling",
-      "venue": "ASME 2025 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC/CIE 2025)",
-      "location": "Anaheim, CA, USA",
-      "date": "18 Aug. 2025",
-      "pages": "10 Pages",
-      "doi": "10.1115/DETC2025-169512",
-      "authors": [
-        { "name": "Yuan Jiang", "self": true },
-        { "name": "Alexandra N. Leeming" },
-        { "name": "Joshua L. Rovey" },
-        { "name": "Pingfeng Wang" }
-      ],
-      "remarks": [
-        "ASME DAC Paper of Distinction (Top 10 over 103)"
       ]
     },
     {
