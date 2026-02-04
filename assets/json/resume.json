@@ -48,8 +48,8 @@
       "advisor": "Prof. Gang Niu",
       "advisor_url": "https://tjjt.tongji.edu.cn/info/2943/10978.htm",
       // "lab": "Intelligent Maintenance & Autonomous Systems (IMAS) Group",
-      "logo": "Tongji_logo.png"
-      // "thesis": "Time-frequency feature extraction and health monitoring of rail short-pitch damage"
+      "logo": "Tongji_logo.png",
+      "thesis": "Time-frequency feature extraction and health monitoring of rail short-pitch damage"
     },
     {
       "institution": "Tongji University",
@@ -207,6 +207,27 @@
     },
     {
       "type": "conference",
+      "title": "Exploration of an in-situ Hall thruster erosion and plasma diagnostic sensor",
+      "venue": "2026 AIAA Science and Technology Forum and Exposition (AIAA SciTech Forum)",
+      "location": "Orlando, FL, USA",
+      "date": "12 Jan. 2026",
+      "pages": "14 Pages",
+      "doi": "10.2514/6.2026-0929",
+      "authors": [
+        { "name": "Alexandra N. Leeming"},
+        { "name": "Yuan Jiang", "self": true},
+        { "name": "Stephen Messing"},
+        { "name": "Siyuan Wang"},
+        { "name": "Joshua Rovey"},
+        { "name": "Pingfeng Wang"},
+        { "name": "J. G. Eden"},
+        { "name": "Peter D. Dragic"},
+        { "name": "Valentin Korman"},
+        { "name": "Kurt Polzin"}
+      ]
+    },
+    {
+      "type": "conference",
       "title": "Physics-Informed Machine Learning Enhanced Battery Pack Optimization",
       "venue": "2025 IEEE/AIAA Transportation Electrification Conference and Electric Aircraft Technologies Symposium (ITEC+ EATS)",
       "location": "Anaheim, CA, USA",
@@ -339,20 +360,20 @@
     //   "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     // },
     {
-      "type": "paper",
+      "type": "research",
       "title": "ASME-DAC Paper of Distinction",
       "date": "2025",
       "awarder": "Design Automation Committee (DAC), ASME",
       "url": "assets/pdf/awards/2025_ASME_DAC_Paper_of_Distinction.pdf"
     },
     {
-      "type": "paper",
+      "type": "research",
       "title": "Outstanding Master's Thesis Award",
       "date": "2023",
       "awarder": "Tongji University"
     },
     {
-      "type": "paper",
+      "type": "research",
       "title": "IEEE PHM Best Paper Award",
       "date": "2022",
       "awarder": "IEEE Reliability Society",
@@ -363,6 +384,12 @@
       "title": "Jerry Dobrovolny Fellowship",
       "date": "2023",
       "awarder": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "type": "fellowship",
+      "title": "National Scholarship of China",
+      "date": "2019, 2022",
+      "awarder": "Ministry of Education of the People's Republic of China"
     },
     {
       "type": "service",
