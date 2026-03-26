@@ -91,6 +91,8 @@ layout: default
             <h3 class="card-title font-weight-medium">
               {% if data[0] == 'awards' %}
                 Awards & Honors
+              {% elsif data[0] == 'services' %}
+                Academic Service
               {% else %}
                 {{ data[0] | capitalize }}
               {% endif %}
@@ -109,6 +111,8 @@ layout: default
                   {% include resume/projects.liquid %}
                 {% when 'awards' %}
                   {% include resume/awards.liquid %}
+                {% when 'services' %}
+                  {% include resume/services.liquid %}
                 {% when 'skills' %}
                   {% include resume/skills.liquid %}
                 {% when 'publications' %}

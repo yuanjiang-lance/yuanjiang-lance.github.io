@@ -1,0 +1,30 @@
+{% for content in data[1] %}
+  {% if forloop.first == false %}
+    <hr style="
+      border: none;
+      border-top: 1px solid #e5e5e5;
+      margin: 0.5em 0 0.8em 0;
+    ">
+  {% endif %}
+
+  <div style="
+    margin-top:{% if forloop.first %}0em{% else %}0.8em{% endif %};
+    margin-bottom:0.6em;
+    font-size:1.35em;
+    font-weight:200;
+  ">
+    {{ content.name }}
+  </div>
+
+  {% if content.keywords and content.keywords.size > 0 %}
+    <div class="row" style="font-size:0.88rem; margin-left:-0.4rem; margin-right:-0.4rem;">
+      {% for item in content.keywords %}
+        <div class="col-12 mb-1" style="padding-left:0.88rem; padding-right:0.4rem;">
+          <div class="ml-1 ml-md-3" style="font-size:0.88rem; font-weight:300; line-height:1.35; padding-left:0.95em; text-indent:-0.95em;">
+            <span style="display:inline-block; width:0.95em;">&#9675;</span>{{ item }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}

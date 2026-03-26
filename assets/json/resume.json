@@ -35,7 +35,8 @@
       "advisor_url": "https://ise.illinois.edu/directory/profile/pingfeng",
       // "lab": "Reliability Analysis & Safety Assurance (RASA) Laboratory",
       // "lab_url": "https://rasalab.ise.illinois.edu/",
-      "logo": "UIUC_logo.png"
+      "logo": "UIUC_logo.png",
+      "dissertation": "Physics-informed multi-fidelity digital twins for design, diagnosis, and prognosis of complex engineering systems"
     },
     {
       "institution": "Tongji University",
@@ -65,12 +66,48 @@
       // "thesis": "Condition monitoring and degradation prognostics for train bogie bearings"
     }
   ],
+  "work": [
+    {
+      "name": "NIO Automobile, Inc",
+      "position": "Power System Intern",
+      "location": "Shanghai, China",
+      // "url": "https://example.com",
+      "startDate": "2023-05",
+      "endDate": "2023-08",
+      // "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": [
+        "Developed data-driven condition monitoring and fault detection methods for EV power swap and charging systems, translating large-scale operational and sensor data into real-time health indicators and early-warning signals."
+      ]
+    },
+    {
+      "name": "HiRain Technologies",
+      "position": "Autonumous Driving Development Intern",
+      "location": "Shanghai, China",
+      "startDate": "2022-06",
+      "endDate": "2022-08",
+      "highlights": [
+        "Contributed to perception software development and data processing pipelines for multi-camera autonomous driving systems, with exposure to large-scale, high-throughput data integration and real-time system constraints."
+      ]
+    },
+    {
+      "name": "NIO Automobile, Inc",
+      "position": "Battery Testing Intern",
+      "location": "Shanghai, China",
+      "startDate": "2021-02",
+      "endDate": "2021-05",
+      "highlights": [
+        "Conducted experimental testing and data analysis for lithium-ion batteries, supporting model validation and data-informed performance assessment under real-world operating conditions."
+      ]
+    }
+  ],
   "publications": [
     {
       "type": "journal",
       "title": "Remaining useful life prediction for Hall thrusters based on adaptive self-cognizant dynamic system and multi-physics modeling",
       "venue": "Journal of Mechanical Design",
-      "pages": "1-27",
+      "volume": "148",
+      "issue": "7",
+      "pages": "071701",
       "year": "2026",
       "doi": "10.1115/1.4070967",
       "authors": [
@@ -392,27 +429,45 @@
       "awarder": "Ministry of Education of the People's Republic of China"
     },
     {
-      "type": "service",
+      "type": "professional",
       "title": "IEEE TIM Outstanding Reviewer",
       "date": "2025",
       "awarder": "IEEE Instrumentation and Measurement Society",
       "url": "assets/pdf/awards/2025_TIM_Outstanding_Reviewer.pdf"
     }
+  ],
+  "services": [
+    {
+      "name": "Journal Reviewer",
+      "keywords": [
+        "Reliability Engineering & System Safety",
+        "Mechanical Systems and Signal Processing",
+        "Engineering Applications of Artificial Intelligence",
+        "IEEE Transactions on Reliability",
+        "IEEE Transactions on Instrumentation & Measurement",
+        "ISA Transactions",
+        "IEEE Sensors Journal",
+        "Neurocomputing",
+        "Journal of Process Control",
+        "Computers & Structures"
+      ]
+    },
+    {
+      "name": "Conference Reviewer",
+      "keywords": [
+        "ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE)"
+      ]
+    },
+    {
+      "name": "Professional Memberships",
+      "keywords": [
+        "Institute of Electrical and Electronics Engineers (IEEE)",
+        "American Society of Mechanical Engineers (ASME)",
+        "Institute of Industrial and Systems Engineers (IISE)",
+        "Institute for Operations Research and the Management Sciences (INFORMS)"
+      ]
+    }
   ]
-  //   "work": [
-  //   {
-  //     "name": "NIO Automobile, Inc",
-  //     "position": "Power System Intern",
-  //     // "url": "https://example.com",
-  //     "startDate": "2023-05",
-  //     "endDate": "2023-08",
-  //     // "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-  //     "highlights": [
-  //       "Developed online condition monitoring system for EV power swaps and power chargers based on Python stream API; realized real-time fault diagnosis for charging plug detachment, PLC servo communication failure, and battery swap timeout within 5 seconds.",
-  //       "Analyzed vibration signals of fan bearings based on envelope decomposition and spectrum kurtosis; resolved rolling element fault on fan motor bearings."
-  //     ]
-  //   }
-  // ],
   // "certificates": [
   //   {
   //     "name": "Machine Learning",
@@ -471,7 +526,7 @@
   //       "Quantum Teleportation"
   //     ]
   //   }
-  // ],
+  // ]
   // "languages": [
   //   {
   //     "language": "German",
