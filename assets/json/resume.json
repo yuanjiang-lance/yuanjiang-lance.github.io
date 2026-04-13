@@ -122,24 +122,6 @@
     },
     {
       "type": "journal",
-      "title": "Multi-fidelity Physics-informed Convolutional Neural Network for Heat Map Prediction of Battery Packs",
-      "venue": "Reliability Engineering & System Safety",
-      "volume": "256",
-      "year": "2025",
-      "pages": "110752",
-      "doi": "10.1016/j.ress.2024.110752",
-      "authors": [
-        {"name": "Yuan Jiang", "self": true},
-        {"name": "Zheng Liu"},
-        {"name": "Pouya Kabirzadeh"},
-        {"name": "Yulun Wu"},
-        {"name": "Yumeng Li"},
-        {"name": "Nenad Miljkovic"},
-        {"name": "Pingfeng Wang"}
-      ]
-    },
-    {
-      "type": "journal",
       "title": "Uncertainty Quantification of Additively Manufactured Architected Cellular Materials for Energy Absorption Applications",
       "venue": "ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems, Part B: Mechanical Engineering",
       "volume": "11",
@@ -178,6 +160,24 @@
         { "name": "Yumeng Li" },
         { "name": "Pingfeng Wang" },
         { "name": "Nenad Miljkovic" }
+      ]
+    },
+    {
+      "type": "journal",
+      "title": "Multi-fidelity Physics-informed Convolutional Neural Network for Heat Map Prediction of Battery Packs",
+      "venue": "Reliability Engineering & System Safety",
+      "volume": "256",
+      "year": "2025",
+      "pages": "110752",
+      "doi": "10.1016/j.ress.2024.110752",
+      "authors": [
+        {"name": "Yuan Jiang", "self": true},
+        {"name": "Zheng Liu"},
+        {"name": "Pouya Kabirzadeh"},
+        {"name": "Yulun Wu"},
+        {"name": "Yumeng Li"},
+        {"name": "Nenad Miljkovic"},
+        {"name": "Pingfeng Wang"}
       ]
     },
     {
@@ -456,7 +456,8 @@
         "IEEE Sensors Journal",
         "Neurocomputing",
         "Journal of Process Control",
-        "Computers & Structures"
+        "Computers & Structures",
+        "Journal of Vibration and Control"
       ]
     },
     {
