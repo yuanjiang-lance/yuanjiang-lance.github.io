@@ -419,7 +419,7 @@ ninja.data = [{
           section: "News",},{id: "news-my-co-first-authored-paper-spatiotemporal-design-aware-surrogate-modeling-of-thermal-runaway-propagation-in-lithium-ion-battery-packs-has-been-selected-as-a-finalist-for-the-m-amp-amp-d-best-track-paper-competition-at-the-2026-iise-annual-conference-amp-amp-expo",
           title: 'My co-first-authored paper, Spatiotemporal Design-Aware Surrogate Modeling of Thermal Runaway Propagation in Lithium-ion...',
           description: "",
-          section: "News",},{id: "news-my-first-authored-journal-paper-physics-informed-cross-attention-operator-network-with-hard-constrained-fourier-features-for-heat-map-prediction-of-large-scale-battery-packs-is-accepted-by-engineering-applications-of-artificial-intelligence-eaai",
+          section: "News",},{id: "news-my-first-authored-journal-paper-physics-informed-cross-attention-operator-network-with-hard-constrained-fourier-features-for-heat-map-prediction-of-large-scale-battery-packs-is-accepted-by-engineering-applications-of-artificial-intelligence-eaai-free-paper-access-by-clicking-the-title-until-june-5-2026",
           title: 'My first-authored journal paper, Physics-informed Cross-attention Operator Network with Hard-constrained Fourier Features for...',
           description: "",
           section: "News",},{id: "projects-project-1",
