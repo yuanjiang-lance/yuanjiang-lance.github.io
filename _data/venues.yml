@@ -12,6 +12,10 @@
   url: https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety
   color: "#BB00A7"
 
+"EAAI":
+  url: https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence
+  color: "#BB00A7"
+
 "MSSP":
   url: https://www.sciencedirect.com/journal/mechanical-systems-and-signal-processing
   color: "#BB00A7"

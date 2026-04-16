@@ -102,6 +102,21 @@
   ],
   "publications": [
     {
+      "type":"journal",
+      "title": "Physics-informed cross-attention operator network with hard-constrained Fourier features for heat map prediction of large-scale battery packs",
+      "venue": "Engineering Applications of Artificial Intelligence",
+      "volume": "176",
+      "year": "2026",
+      "pages": "114833",
+      "doi": "10.1016/j.engappai.2026.114833",
+      "authors": [
+        { "name": "Yuan Jiang", "self": true },
+        { "name": "Yiyue Jiang" },
+        { "name": "Zheng Liu" },
+        { "name": "Pingfeng Wang" }
+      ]
+    },
+    {
       "type": "journal",
       "title": "Remaining useful life prediction for Hall thrusters based on adaptive self-cognizant dynamic system and multi-physics modeling",
       "venue": "Journal of Mechanical Design",
