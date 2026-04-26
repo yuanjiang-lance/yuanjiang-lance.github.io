@@ -114,6 +114,9 @@
         { "name": "Yiyue Jiang" },
         { "name": "Zheng Liu" },
         { "name": "Pingfeng Wang" }
+      ],
+      "remarks":[
+        "Second Place (Poster Competition), 2026 ISE Student Conference (2nd out of 28)"
       ]
     },
     {
@@ -132,7 +135,7 @@
         { "name": "Pingfeng Wang" }
       ],
       "remarks": [
-        "ASME DAC Paper of Distinction (Top 10 over 103)"
+        "ASME DAC Paper of Distinction (Top 10 out of 103)"
       ]
     },
     {
@@ -370,7 +373,7 @@
         { "name": "Gang Niu" }
       ],
       "remarks": [
-        "IEEE PHM Best Paper Award (Top 1 over 274)"
+        "IEEE PHM Best Paper Award (Top 5 out of 274)"
       ]
     },
     {
@@ -411,6 +414,12 @@
     //   "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
     //   "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     // },
+    {
+      "type": "research",
+      "title": "Second Place (Poster Competition)",
+      "date": "2026",
+      "awarder": "ISE Student Conference, University of Illinois Urbana-Champaign"
+    },
     {
       "type": "research",
       "title": "ASME-DAC Paper of Distinction",
