@@ -189,8 +189,8 @@
       "pages": "110752",
       "doi": "10.1016/j.ress.2024.110752",
       "authors": [
-        {"name": "Yuan Jiang", "self": true},
-        {"name": "Zheng Liu"},
+        {"name": "Yuan Jiang", "self": true, "equal": true},
+        {"name": "Zheng Liu", "equal": true},
         {"name": "Pouya Kabirzadeh"},
         {"name": "Yulun Wu"},
         {"name": "Yumeng Li"},
