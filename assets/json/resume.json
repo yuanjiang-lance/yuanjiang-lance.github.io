@@ -442,6 +442,13 @@
     },
     {
       "type": "fellowship",
+      "title": "Mavis Future Faculty Fellow",
+      "date": "2026",
+      "awarder": "University of Illinois Urbana-Champaign",
+      "url": "https://mavis.grainger.illinois.edu/"
+    },
+    {
+      "type": "fellowship",
       "title": "Jerry Dobrovolny Fellowship",
       "date": "2023",
       "awarder": "University of Illinois Urbana-Champaign"
@@ -481,7 +488,8 @@
         "Neurocomputing",
         "Journal of Process Control",
         "Computers & Structures",
-        "Journal of Vibration and Control"
+        "Journal of Vibration and Control",
+        "Journal of Rail and Rapid Transit"
       ]
     },
     {
