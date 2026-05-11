@@ -121,6 +121,18 @@
     },
     {
       "type": "journal",
+      "title": "A review on mitigating thermal runaway propagation in battery packs: From mechanisms to modeling and design optimization",
+      "venue": "Energy Advances",
+      "year": "2026",
+      "doi": "10.1039/D5YA00351B",
+      "authors": [
+        { "name": "Yiyue Jiang" },
+        { "name": "Yuan Jiang", "self": true },
+        { "name": "Pingfeng Wang" }
+      ]
+    },
+    {
+      "type": "journal",
       "title": "Remaining useful life prediction for Hall thrusters based on adaptive self-cognizant dynamic system and multi-physics modeling",
       "venue": "Journal of Mechanical Design",
       "volume": "148",
