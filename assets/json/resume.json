@@ -500,6 +500,12 @@
   ],
   "services": [
     {
+      "name": "Conference Service",
+      "keywords": [
+        "Session Chair, Prognostics and Reliability in Power and Energy Systems, IISE Annual Conference & Expo, 2026"
+      ]
+    },
+    {
       "name": "Journal Reviewer",
       "keywords": [
         "Reliability Engineering & System Safety",
