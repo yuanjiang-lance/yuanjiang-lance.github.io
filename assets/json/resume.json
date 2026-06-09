@@ -428,15 +428,17 @@
     // },
     {
       "type": "research",
-      "title": "IISE QCRE Best Student Poster Competition Winner",
+      "title": "IISE QCRE Best Student Poster Award",
       "date": "2026",
-      "awarder": "IISE Annual Conference & Expo"
+      "awarder": "IISE Annual Conference & Expo",
+      "url": "assets/pdf/awards/2026_IISE_QCRE_Best_Student_Poster.pdf"
     },
     {
       "type": "research",
-      "title": "IISE M&D Best Track Paper Competition Finalist",
+      "title": "IISE M&D Best Track Paper Finalist",
       "date": "2026",
-      "awarder": "IISE Annual Conference & Expo"
+      "awarder": "IISE Annual Conference & Expo",
+      "url": "assets/pdf/awards/2026_IISE_M&D_Best_Track_Paper_Finalist.pdf"
     },
     {
       "type": "research",
@@ -500,7 +502,7 @@
   ],
   "services": [
     {
-      "name": "Conference Service",
+      "name": "Conference Leadership",
       "keywords": [
         "Session Chair, Prognostics and Reliability in Power and Energy Systems, IISE Annual Conference & Expo, 2026"
       ]
