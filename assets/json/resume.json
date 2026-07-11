@@ -455,6 +455,12 @@
     },
     {
       "type": "research",
+      "title": "ASME-IMECE Best Student Paper Award",
+      "date": "2024",
+      "awarder": "ASME International Mechanical Engineering Congress and Exposition"
+    },
+    {
+      "type": "research",
       "title": "Outstanding Master's Thesis Award",
       "date": "2023",
       "awarder": "Tongji University"
@@ -510,6 +516,7 @@
     {
       "name": "Journal Reviewer",
       "keywords": [
+        "IEEE Transactions on Industrial Informatics",
         "Reliability Engineering & System Safety",
         "Mechanical Systems and Signal Processing",
         "Engineering Applications of Artificial Intelligence",
@@ -521,7 +528,9 @@
         "Journal of Process Control",
         "Computers & Structures",
         "Journal of Vibration and Control",
-        "Journal of Rail and Rapid Transit"
+        "Journal of Rail and Rapid Transit",
+        "Scientific Reports",
+        "Microelectronics Journal"
       ]
     },
     {
