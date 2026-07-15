@@ -121,6 +121,20 @@
     },
     {
       "type": "journal",
+      "title": "Iterative dispersive Vold-Kalman filter with local adaptive bandwidth for dispersive signal decomposition in structural health monitoring",
+      "venue": "IEEE Transactions on Industrial Informatics",
+      "year": "2026",
+      "doi": "10.1109/TII.2026.3702939",
+      "authors": [
+        { "name": "Yuan Jiang", "self": true },
+        { "name": "Yiyue Jiang" },
+        { "name": "Zheng Liu" },
+        { "name": "Yuejian Chen" },
+        { "name": "Pingfeng Wang" }
+      ]
+    },
+    {
+      "type": "journal",
       "title": "A review on mitigating thermal runaway propagation in battery packs: From mechanisms to modeling and design optimization",
       "venue": "Energy Advances",
       "year": "2026",
@@ -370,6 +384,9 @@
         { "name": "Debbie Senesky" },
         { "name": "Pingfeng Wang" },
         { "name": "Yumeng Li" }
+      ],
+      "remarks": [
+        "ASME-IMECE Best Student Paper Award"
       ]
     },
     {
