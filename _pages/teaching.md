@@ -9,6 +9,33 @@ nav_order: 5
 
 ### Teaching Assistant
 
+<div style="display: flex; justify-content: space-between; align-items: baseline;">
+  <span style="font-size: 1.1rem; font-weight: 600;">
+    SE 311: Engineering Design Analysis
+  </span>
+  <span style="font-size: 1.1rem; font-weight: 600;">
+    University of Illinois Urbana–Champaign
+  </span>
+</div>
+
+<div style="display: flex; justify-content: space-between; align-items: baseline;">
+  <span style="font-size: 1.05rem; ">
+    Main instructor: 
+    <a href="https://ise.illinois.edu/directory/profile/gkrishna"
+       target="_blank"
+       rel="noopener noreferrer">
+      Prof. Krishnan Girish
+    </a>
+  </span>
+  <span style="font-size: 1.05rem">
+    Spring 2026
+  </span>
+</div>
+
+- Delivered guest lectures on stress analysis, covering state of stress, stress transformation, principal stresses, and maximum shear stress, with emphasis on engineering applications and analytical problem solving
+- Delivered exam review lectures covering elasticity, stress analysis, energy methods, and introductory finite element analysis, reinforcing systematic approaches to solving engineering mechanics problems
+- Developed and delivered a virtual Abaqus tutorial for finite element analysis, guiding students through finite element modeling, post-processing, and project completion involving stress analysis and validation against analytical solutions
+
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
   <span style="font-size: 1.1rem; font-weight: 600;">
@@ -33,9 +60,9 @@ nav_order: 5
   </span>
 </div>
 
-- Delivered guest lectures on reliability analysis and reliability-based design optimization, covering problem formulation, algorithmic implementation, and engineering interpretation.
-- Designed an RBDO course project and mentored students on modeling, optimization algorithms, and coding implementation.
-- Led exam review sessions with structured problem-solving tutorials to reinforce core concepts and analytical skills.
+- Delivered guest lectures on reliability analysis and reliability-based design optimization (RBDO), covering problem formulation, algorithmic implementation, and engineering interpretation
+- Designed an RBDO course project and mentored students on modeling, optimization algorithms, and coding implementation
+- Led exam review sessions with structured problem-solving tutorials to reinforce core concepts and analytical skills
 
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
@@ -61,8 +88,8 @@ nav_order: 5
   </span>
 </div>
 
-- Contributed to undergraduate instruction by leading discussion sections and providing academic support via office hours.
-- Delivered exam review lectures covering multivariate decision making, decision trees, and uncertainty-based decision making, with an emphasis on systematic problem formulation and solution strategies.
+- Contributed to undergraduate instruction by leading discussion sections and providing academic support via office hours
+- Delivered exam review lectures covering multivariate decision making, decision trees, and uncertainty-based decision making, with an emphasis on systematic problem formulation and solution strategies
 
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
@@ -88,9 +115,9 @@ nav_order: 5
   </span>
 </div>
 
-- Supported course delivery by assisting lectures and coordinating laboratory components for an undergraduate course.
-- Led laboratory sessions on bearing and gearbox test rigs, covering experimental setup, data acquisition, and signal processing. 
-- Instructed students on vibration-based fault diagnosis using FFT, wavelet transforms, and machine learning methods.
+- Supported course delivery by assisting lectures and coordinating laboratory components for an undergraduate course
+- Led laboratory sessions on bearing and gearbox test rigs, covering experimental setup, data acquisition, and signal processing
+- Instructed students on vibration-based fault diagnosis using FFT, wavelet transforms, and machine learning methods
 
 
 <!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.

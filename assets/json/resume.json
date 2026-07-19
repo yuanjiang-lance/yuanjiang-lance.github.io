@@ -25,7 +25,7 @@
   "education": [
     {
       "institution": "University of Illinois Urbana-Champaign",
-      "location": "Urbana, Illinois, USA",
+      "location": "Urbana, IL, USA",
       "area": "Industrial Engineering (Minor: Statistics)",
       "studyType": "Ph.D.",
       "startDate": "2023-08-15",
@@ -68,6 +68,16 @@
   ],
   "work": [
     {
+      "name": "Rivian Automotive, Inc",
+      "position": "Computational Methods Development Intern",
+      "location": "Champaign, IL, USA",
+      "startDate": "2026-05",
+      "endDate": "2026-08",
+      "highlights": [
+        "Developed computational frameworks for electric motor design optimization, including multi-objective optimization workflows, optimization solvers, and machine learning-based surrogate models for accelerated engineering design"
+      ]
+    },
+    {
       "name": "NIO Automobile, Inc",
       "position": "Power System Intern",
       "location": "Shanghai, China",
@@ -76,7 +86,7 @@
       "endDate": "2023-08",
       // "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
       "highlights": [
-        "Developed data-driven condition monitoring and fault detection methods for EV power swap and charging systems, translating large-scale operational and sensor data into real-time health indicators and early-warning signals."
+        "Developed data-driven condition monitoring and fault detection methods for EV power swap and charging systems, translating large-scale operational and sensor data into real-time health indicators and early-warning signals"
       ]
     },
     {
@@ -86,7 +96,7 @@
       "startDate": "2022-06",
       "endDate": "2022-08",
       "highlights": [
-        "Contributed to perception software development and data processing pipelines for multi-camera autonomous driving systems, with exposure to large-scale, high-throughput data integration and real-time system constraints."
+        "Contributed to perception software development and data processing pipelines for multi-camera autonomous driving systems, with exposure to large-scale, high-throughput data integration and real-time system constraints"
       ]
     },
     {
@@ -96,7 +106,7 @@
       "startDate": "2021-02",
       "endDate": "2021-05",
       "highlights": [
-        "Conducted experimental testing and data analysis for lithium-ion batteries, supporting model validation and data-informed performance assessment under real-world operating conditions."
+        "Conducted experimental testing and data analysis for lithium-ion batteries, supporting model validation and data-informed performance assessment under real-world operating conditions"
       ]
     }
   ],
@@ -137,6 +147,9 @@
       "type": "journal",
       "title": "A review on mitigating thermal runaway propagation in battery packs: From mechanisms to modeling and design optimization",
       "venue": "Energy Advances",
+      "volume": "5",
+      "issue": "6",
+      "pages": "777--809",
       "year": "2026",
       "doi": "10.1039/D5YA00351B",
       "authors": [
@@ -517,6 +530,13 @@
     },
     {
       "type": "professional",
+      "title": "PHM Society Doctoral Symposium",
+      "date": "2026",
+      "awarder": "PHM Society Annual Conference",
+      "url": "https://phm2026.phmsociety.org/call-for-doctoral-symposium/"
+    },
+    {
+      "type": "professional",
       "title": "IEEE TIM Outstanding Reviewer",
       "date": "2025",
       "awarder": "IEEE Instrumentation and Measurement Society",
@@ -537,6 +557,7 @@
         "Reliability Engineering & System Safety",
         "Mechanical Systems and Signal Processing",
         "Engineering Applications of Artificial Intelligence",
+        "Expert Systems with Applications",
         "IEEE Transactions on Reliability",
         "IEEE Transactions on Instrumentation & Measurement",
         "ISA Transactions",
