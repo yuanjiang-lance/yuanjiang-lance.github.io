@@ -26,3 +26,7 @@
   line-height: 1.5;
   padding: 0;
 }
+
+.publications ol.bibliography li ul.publication-awards li + li {
+  margin-top: 0.2em;
+}

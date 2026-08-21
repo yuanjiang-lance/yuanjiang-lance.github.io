@@ -1,0 +1,13 @@
+{% if include.date %}
+  {% assign dates = include.date | split: ',' %}
+  <span class="resume-date-badge badge font-weight-bold danger-color-dark text-uppercase">
+    {%- for date in dates -%}
+      {{- date | strip | split: '-' | join: '.' -}}
+      {%- unless forloop.last -%}
+        ,
+        {%- assign row_position = forloop.index | modulo: 2 -%}
+        {%- if row_position == 0 -%}<br>{%- else -%}&nbsp;{%- endif -%}
+      {%- endunless -%}
+    {%- endfor -%}
+  </span>
+{% endif %}

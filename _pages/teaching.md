@@ -120,6 +120,58 @@ nav_order: 5
 - Instructed students on vibration-based fault diagnosis using FFT, wavelet transforms, and machine learning methods
 
 
+### Student Mentoring
+
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap;">
+  <span style="font-size: 1.05rem;">
+    <strong style="font-size: 1.1rem; font-weight: 600;">Jiayi Zhao</strong> <em>(Ph.D. Student, UIUC)</em>
+  </span>
+  <strong style="font-size: 1.05rem; white-space: nowrap;">
+    Jan 2026 - Present
+  </strong>
+</div>
+
+<div style="font-size: 1.0rem; margin: 0.15rem 0 0.2rem;">
+  <em>Digital-Twin-Based Inverse Diagnosis for Hydraulic Drivetrain Remanufacturing</em>
+</div>
+
+- Primary technical advisor for research methodology, guiding digital-twin framework design, similarity-based diagnostic approach, and trustworthy decision-making methods
+- Co-first-authored ASME IDETC 2026 conference paper (accepted); journal paper on trustworthy diagnosis in preparation
+
+
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap;">
+  <span style="font-size: 1.05rem;">
+    <strong style="font-size: 1.1rem; font-weight: 600;">Jingsen Yang</strong> <em>(M.S., UIUC)</em>
+  </span>
+  <strong style="font-size: 1.05rem; white-space: nowrap;">
+    Nov 2025 - Present
+  </strong>
+</div>
+
+<div style="font-size: 1.0rem; margin: 0.15rem 0 0.2rem;">
+  <em>Multi-fidelity Surrogate Modeling and Data Fusion based on Foundational Tabular Model</em>
+</div>
+
+- Primary technical advisor for surrogate modeling, data processing, and methodological development
+- Thesis and conference paper in preparation
+
+
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap;">
+  <span style="font-size: 1.05rem;">
+    <strong style="font-size: 1.1rem; font-weight: 600;">Yanbin Luo</strong> <em>(M.S., UIUC)</em>
+  </span>
+  <strong style="font-size: 1.05rem; white-space: nowrap;">
+    Jul 2025 - May 2026
+  </strong>
+</div>
+
+<div style="font-size: 1.0rem; margin: 0.15rem 0 0.2rem;">
+  <em>Experimental Degradation Modeling of High-Electron-Mobility Transistors (HEMTs) under Extreme Operating Conditions</em>
+</div>
+
+- Primary technical advisor for experimental design, data processing, and degradation modeling
+- Guided master's thesis and IISE conference paper preparation (accepted and presented)
+
 <!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
 Organize your courses by years, topics, or universities, however you like! -->

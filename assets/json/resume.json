@@ -74,7 +74,7 @@
       "startDate": "2026-05",
       "endDate": "2026-08",
       "highlights": [
-        "Developed computational frameworks for electric motor design optimization, including multi-objective optimization workflows, optimization solvers, and machine learning-based surrogate models for accelerated engineering design"
+        "Developed a unified multi-objective optimization framework for electric motor design, integrating heuristic and gradient-based solvers with trust-region surrogate modeling strategies to reduce computational cost while maintaining design fidelity"
       ]
     },
     {
@@ -110,6 +110,176 @@
       ]
     }
   ],
+    "awards": [
+    // {
+    //   "title": "Nobel Prize in Physics",
+    //   "date": "1921-11-01",
+    //   "awarder": "Royal Swedish Academy of Sciences",
+    //   "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+    //   "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    // },
+    {
+      "type": "research",
+      "title": "ASME-DAC Paper of Distinction",
+      "date": "2026",
+      "awarder": "Design Automation Committee (DAC), ASME",
+      "url": "assets/pdf/awards/2026_ASME_DAC_Paper_of_Distinction.pdf"
+    },
+    {
+      "type": "research",
+      "title": "IISE QCRE Best Student Poster Award",
+      "date": "2026",
+      "awarder": "IISE Annual Conference & Expo",
+      "url": "assets/pdf/awards/2026_IISE_QCRE_Best_Student_Poster.pdf"
+    },
+    {
+      "type": "research",
+      "title": "IISE M&D Best Track Paper Finalist",
+      "date": "2026",
+      "awarder": "IISE Annual Conference & Expo",
+      "url": "assets/pdf/awards/2026_IISE_M&D_Best_Track_Paper_Finalist.pdf"
+    },
+    {
+      "type": "research",
+      "title": "Best Poster Award (Second Place)",
+      "date": "2026",
+      "awarder": "ISE Student Conference, University of Illinois Urbana-Champaign"
+    },
+    {
+      "type": "research",
+      "title": "ASME-DAC Paper of Distinction",
+      "date": "2025",
+      "awarder": "Design Automation Committee (DAC), ASME",
+      "url": "assets/pdf/awards/2025_ASME_DAC_Paper_of_Distinction.pdf"
+    },
+    {
+      "type": "research",
+      "title": "ASME IMECE Best Student Paper Award",
+      "date": "2024",
+      "awarder": "ASME International Mechanical Engineering Congress and Exposition"
+    },
+    {
+      "type": "research",
+      "title": "Outstanding Master's Thesis Award",
+      "date": "2023",
+      "awarder": "Tongji University"
+    },
+    {
+      "type": "research",
+      "title": "IEEE PHM Best Paper Award",
+      "date": "2022",
+      "awarder": "IEEE Reliability Society",
+      "url": "assets/pdf/awards/2022_IEEE_PHM_Best_Paper.pdf"
+    },
+    {
+      "type": "fellowship",
+      "title": "Mavis Future Faculty Fellow",
+      "date": "2026",
+      "awarder": "University of Illinois Urbana-Champaign",
+      "url": "https://mavis.grainger.illinois.edu/"
+    },
+    {
+      "type": "fellowship",
+      "title": "Jerry Dobrovolny Fellowship",
+      "date": "2023",
+      "awarder": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "type": "fellowship",
+      "title": "Tongji Outstanding Graduate",
+      "date": "2023",
+      "awarder": "Tongji University"
+    },
+    {
+      "type": "fellowship",
+      "title": "National Scholarship of China",
+      "date": "2019, 2022",
+      "awarder": "Ministry of Education of the People's Republic of China"
+    },
+    {
+      "type": "fellowship",
+      "title": "Shanghai Outstanding Graduate",
+      "date": "2020",
+      "awarder": "Shanghai Municipal Education Commission"
+    },
+    {
+      "type": "fellowship",
+      "title": "First-Class Scholarship",
+      "date": "2016, 2017, 2018",
+      "awarder": "Tongji University"
+    },
+    {
+      "type": "professional",
+      "title": "IOE-ISyE-MS&E Joint Rising Star",
+      "date": "2026",
+      "awarder": "IOE (UMich), ISyE (Georgia Tech), MS&E (Stanford)",
+      "url": "https://ioe.engin.umich.edu/2026/03/30/ioe-hosts-rising-stars-workshop/"
+    },
+    {
+      "type": "professional",
+      "title": "PHM Society Doctoral Symposium",
+      "date": "2026",
+      "awarder": "PHM Society Annual Conference",
+      "url": "https://phm2026.phmsociety.org/call-for-doctoral-symposium/"
+    },
+    {
+      "type": "professional",
+      "title": "IEEE TIM Outstanding Reviewer",
+      "date": "2025",
+      "awarder": "IEEE Instrumentation and Measurement Society",
+      "url": "assets/pdf/awards/2025_TIM_Outstanding_Reviewer.pdf"
+    }
+  ],
+  "services": [
+    {
+      "name": "Conference Leadership",
+      "keywords": [
+        "Session Chair, Prognostics and Reliability in Power and Energy Systems, IISE Annual Conference & Expo, 2026"
+      ]
+    },
+    {
+      "name": "Departmental & University Service",
+      "keywords": [
+        "ISE Graduate Program Ambassador, Industrial & Enterprise Systems Engineering, UIUC, 2026–Present"
+      ]
+    },
+    {
+      "name": "Journal Reviewer",
+      "keywords": [
+        "IEEE Transactions on Industrial Informatics",
+        "Reliability Engineering & System Safety",
+        "Mechanical Systems and Signal Processing",
+        "Engineering Applications of Artificial Intelligence",
+        "Expert Systems with Applications",
+        "IEEE Transactions on Reliability",
+        "IEEE Transactions on Instrumentation & Measurement",
+        "ISA Transactions",
+        "IEEE Sensors Journal",
+        "Neurocomputing",
+        "Journal of Process Control",
+        "Computers & Structures",
+        "Journal of Vibration and Control",
+        "Journal of Rail and Rapid Transit",
+        "Scientific Reports",
+        "Microelectronics Journal"
+      ]
+    },
+    {
+      "name": "Conference Reviewer",
+      "keywords": [
+        "ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE)"
+      ]
+    },
+    {
+      "name": "Professional Memberships",
+      "keywords": [
+        "Institute of Electrical and Electronics Engineers (IEEE)",
+        "American Society of Mechanical Engineers (ASME)",
+        "Institute of Industrial and Systems Engineers (IISE)",
+        "Institute for Operations Research and the Management Sciences (INFORMS)"
+      ]
+    }
+  ],
   "publications": [
     {
       "type":"journal",
@@ -126,7 +296,7 @@
         { "name": "Pingfeng Wang" }
       ],
       "remarks":[
-        "Second Place (Poster Competition), 2026 ISE Student Conference (2nd out of 28)"
+        "ISE Student Conference Best Poster Award Second Place (2nd out of 28)"
       ]
     },
     {
@@ -174,7 +344,8 @@
         { "name": "Pingfeng Wang" }
       ],
       "remarks": [
-        "ASME DAC Paper of Distinction (Top 10 out of 103)"
+        "ASME DAC Paper of Distinction (Top 10 out of 103)",
+        "Invited to JMD Special Issue: Selected Papers from IDETC 2025"
       ]
     },
     {
@@ -302,7 +473,7 @@
     {
       "type": "conference",
       "title": "Exploration of an in-situ Hall thruster erosion and plasma diagnostic sensor",
-      "venue": "2026 AIAA Science and Technology Forum and Exposition (AIAA SciTech Forum)",
+      "venue": "AIAA Science and Technology Forum and Exposition (AIAA SciTech 2026)",
       "location": "Orlando, FL, USA",
       "date": "12 Jan. 2026",
       "pages": "14 Pages",
@@ -323,7 +494,7 @@
     {
       "type": "conference",
       "title": "Physics-Informed Machine Learning Enhanced Battery Pack Optimization",
-      "venue": "2025 IEEE/AIAA Transportation Electrification Conference and Electric Aircraft Technologies Symposium (ITEC+ EATS)",
+      "venue": "IEEE/AIAA Transportation Electrification Conference and Electric Aircraft Technologies Symposium (ITEC+EATS 2025)",
       "location": "Anaheim, CA, USA",
       "date": "18 June 2025",
       "pages": "5 Pages",
@@ -338,7 +509,7 @@
     {
       "type": "conference",
       "title": "Prognostics of Hall Thruster Erosion Using Multiphysics-Based Modeling and Machine Learning",
-      "venue": "2025 Annual Reliability and Maintainability Symposium (RAMS 2025)",
+      "venue": "Annual Reliability and Maintainability Symposium (RAMS 2025)",
       "location": "Destin, FL, USA",
       "date": "27 Jan. 2025",
       "pages": "7 Pages",
@@ -353,7 +524,7 @@
     {
       "type": "conference",
       "title": "Physics-Informed Machine Learning for Battery Pack Thermal Management",
-      "venue": "2025 Annual Reliability and Maintainability Symposium (RAMS 2025)",
+      "venue": "Annual Reliability and Maintainability Symposium (RAMS 2025)",
       "location": "Destin, FL, USA",
       "date": "27 Jan. 2025",
       "pages": "7 Pages",
@@ -368,7 +539,7 @@
     {
       "type": "conference",
       "title": "Transductive Transfer Learning Features for Prognostics and Health Management",
-      "venue": "2025 Annual Reliability and Maintainability Symposium (RAMS 2025)",
+      "venue": "Annual Reliability and Maintainability Symposium (RAMS 2025)",
       "location": "Destin, FL, USA",
       "date": "27 Jan. 2025",
       "pages": "7 Pages",
@@ -399,13 +570,13 @@
         { "name": "Yumeng Li" }
       ],
       "remarks": [
-        "ASME-IMECE Best Student Paper Award"
+        "ASME IMECE Best Student Paper Award"
       ]
     },
     {
       "type": "conference",
       "title": "Rail Local Damage Detection Based on Recursive Frequency-Domain Envelope Tracking Filter and Rail Impact Index",
-      "venue": "2022 Global Reliability and Prognostics and Health Management (PHM 2022)",
+      "venue": "IEEE Global Reliability and Prognostics and Health Management (PHM 2022)",
       "location": "Yantai, China",
       "date": "13 Oct. 2022",
       "pages": "7 Pages",
@@ -436,7 +607,7 @@
     {
       "type": "conference",
       "title": "Intelligent Rolling Bearing Fault Diagnosis Under Variable Speed Conditions Without Tachometers",
-      "venue": "2021 Global Reliability and Prognostics and Health Management (PHM 2021)",
+      "venue": "IEEE Global Reliability and Prognostics and Health Management (PHM 2021)",
       "location": "Nanjing, China",
       "date": "15 Oct. 2021",
       "pages": "7 Pages",
@@ -445,145 +616,6 @@
         { "name": "Yuan Jiang", "self": true },
         { "name": "Hongyang Zhao" },
         { "name": "Gang Niu" }
-      ]
-    }
-  ],
-  "awards": [
-    // {
-    //   "title": "Nobel Prize in Physics",
-    //   "date": "1921-11-01",
-    //   "awarder": "Royal Swedish Academy of Sciences",
-    //   "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-    //   "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    // },
-    {
-      "type": "research",
-      "title": "IISE QCRE Best Student Poster Award",
-      "date": "2026",
-      "awarder": "IISE Annual Conference & Expo",
-      "url": "assets/pdf/awards/2026_IISE_QCRE_Best_Student_Poster.pdf"
-    },
-    {
-      "type": "research",
-      "title": "IISE M&D Best Track Paper Finalist",
-      "date": "2026",
-      "awarder": "IISE Annual Conference & Expo",
-      "url": "assets/pdf/awards/2026_IISE_M&D_Best_Track_Paper_Finalist.pdf"
-    },
-    {
-      "type": "research",
-      "title": "Second Place (Poster Competition)",
-      "date": "2026",
-      "awarder": "ISE Student Conference, University of Illinois Urbana-Champaign"
-    },
-    {
-      "type": "research",
-      "title": "ASME-DAC Paper of Distinction",
-      "date": "2025",
-      "awarder": "Design Automation Committee (DAC), ASME",
-      "url": "assets/pdf/awards/2025_ASME_DAC_Paper_of_Distinction.pdf"
-    },
-    {
-      "type": "research",
-      "title": "ASME-IMECE Best Student Paper Award",
-      "date": "2024",
-      "awarder": "ASME International Mechanical Engineering Congress and Exposition"
-    },
-    {
-      "type": "research",
-      "title": "Outstanding Master's Thesis Award",
-      "date": "2023",
-      "awarder": "Tongji University"
-    },
-    {
-      "type": "research",
-      "title": "IEEE PHM Best Paper Award",
-      "date": "2022",
-      "awarder": "IEEE Reliability Society",
-      "url": "assets/pdf/awards/2022_IEEE_PHM_Best_Paper.pdf"
-    },
-    {
-      "type": "fellowship",
-      "title": "Mavis Future Faculty Fellow",
-      "date": "2026",
-      "awarder": "University of Illinois Urbana-Champaign",
-      "url": "https://mavis.grainger.illinois.edu/"
-    },
-    {
-      "type": "fellowship",
-      "title": "Jerry Dobrovolny Fellowship",
-      "date": "2023",
-      "awarder": "University of Illinois Urbana-Champaign"
-    },
-    {
-      "type": "fellowship",
-      "title": "National Scholarship of China",
-      "date": "2019, 2022",
-      "awarder": "Ministry of Education of the People's Republic of China"
-    },
-    {
-      "type": "professional",
-      "title": "IOE-ISyE-MS&E Joint Rising Star",
-      "date": "2026",
-      "awarder": "IOE (UMich), ISyE (Georgia Tech), MS&E (Stanford)",
-      "url": "https://ioe.engin.umich.edu/2026/03/30/ioe-hosts-rising-stars-workshop/"
-    },
-    {
-      "type": "professional",
-      "title": "PHM Society Doctoral Symposium",
-      "date": "2026",
-      "awarder": "PHM Society Annual Conference",
-      "url": "https://phm2026.phmsociety.org/call-for-doctoral-symposium/"
-    },
-    {
-      "type": "professional",
-      "title": "IEEE TIM Outstanding Reviewer",
-      "date": "2025",
-      "awarder": "IEEE Instrumentation and Measurement Society",
-      "url": "assets/pdf/awards/2025_TIM_Outstanding_Reviewer.pdf"
-    }
-  ],
-  "services": [
-    {
-      "name": "Conference Leadership",
-      "keywords": [
-        "Session Chair, Prognostics and Reliability in Power and Energy Systems, IISE Annual Conference & Expo, 2026"
-      ]
-    },
-    {
-      "name": "Journal Reviewer",
-      "keywords": [
-        "IEEE Transactions on Industrial Informatics",
-        "Reliability Engineering & System Safety",
-        "Mechanical Systems and Signal Processing",
-        "Engineering Applications of Artificial Intelligence",
-        "Expert Systems with Applications",
-        "IEEE Transactions on Reliability",
-        "IEEE Transactions on Instrumentation & Measurement",
-        "ISA Transactions",
-        "IEEE Sensors Journal",
-        "Neurocomputing",
-        "Journal of Process Control",
-        "Computers & Structures",
-        "Journal of Vibration and Control",
-        "Journal of Rail and Rapid Transit",
-        "Scientific Reports",
-        "Microelectronics Journal"
-      ]
-    },
-    {
-      "name": "Conference Reviewer",
-      "keywords": [
-        "ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE)"
-      ]
-    },
-    {
-      "name": "Professional Memberships",
-      "keywords": [
-        "Institute of Electrical and Electronics Engineers (IEEE)",
-        "American Society of Mechanical Engineers (ASME)",
-        "Institute of Industrial and Systems Engineers (IISE)",
-        "Institute for Operations Research and the Management Sciences (INFORMS)"
       ]
     }
   ]

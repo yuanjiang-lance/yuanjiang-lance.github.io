@@ -536,6 +536,21 @@ footer.sticky-bottom {
   transform: translateX(-15px) translateY(-5px);
 }
 
+.resume-date-badge {
+  display: inline-block;
+  min-width: 75px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.award-date-column {
+  transform: translateX(-15px);
+}
+
+.publication-remark + .publication-remark {
+  margin-top: 0.2em;
+}
+
 // Repositories
 
 @media (min-width: 768px) {
