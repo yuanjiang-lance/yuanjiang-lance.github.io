@@ -26,18 +26,20 @@ latest_posts:
 
 **Hi, I'm glad you're here!** 
 
-I'm a 3rd-year Ph.D. candidate in Industrial Engineering at the [Department of Industrial & Enterprise Systems Engineering](https://ise.illinois.edu/), [University of Illinois Urbana-Champaign (UIUC)](https://illinois.edu/), advised by [Prof. Pingfeng Wang](https://ise.illinois.edu/directory/profile/pingfeng). Prior to UIUC, I received both my B.S. and M.S. degrees in Vehicle Engineering from the [Institute of Rail Transit](https://railway.tongji.edu.cn/) at [Tongji University](https://www.tongji.edu.cn/), where I worked with [Prof. Gang Niu](https://tjjt.tongji.edu.cn/info/2943/10978.htm).
+I'm a 4th-year Ph.D. candidate in Industrial Engineering at the [Department of Industrial & Enterprise Systems Engineering](https://ise.illinois.edu/), [University of Illinois Urbana-Champaign (UIUC)](https://illinois.edu/), advised by [Prof. Pingfeng Wang](https://ise.illinois.edu/directory/profile/pingfeng). Prior to UIUC, I received both my B.S. and M.S. degrees in Vehicle Engineering from the [Institute of Rail Transit](https://railway.tongji.edu.cn/) at [Tongji University](https://www.tongji.edu.cn/), where I worked with [Prof. Gang Niu](https://tjjt.tongji.edu.cn/info/2943/10978.htm).
 
-My research broadly contributes to **prognostics and health management (PHM)** and **reliability-based design optimization (RBDO)**, with a particular focus on closing the gap between high-fidelity physics-based models and data-limited real-world systems. I'm deeply committed to harnessing the power of **scientific machine learning** and **digital twin** technologies to build **model-aware and data-efficient methods** that integrate physical laws, numerical simulations, and learning-based models, enabling smarter, safer, and more reliable engineering systems in aerospace propulsion, energy storage, and mechatronic transmissions. 
+My research lies at the intersection of **physics-informed AI, digital twin, and lifecyle engineering**. I develop **model-aware and data-efficient computational methods** that integrate physical laws, multi-fidelity simulations, and real-world data to bridge the gap between complex physics-based models and data-limited engineering systems. My long-term goal is to build intelligent engineering systems that can **Design** reliable physical systems and their digital counterparts, **Decide** adaptively with trustworthy intelligence throughout the lifecycle, and **Discover** missing or even new physics from limited observations.
 
-I enjoy solving physics-driven engineering problems with data-limited, model-aware AI tools. Whether you're a fellow researcher, a student, or just someone curious about my work, feel free to browse around and reach out if anything interests you.
+I enjoy solving physics-driven engineering problems with data-limited, model-aware AI tools. My work spans **energy storage, aerospace propulsion, advanced manufacturing, and mechatronic systems**, with broader interests in translating physics-informed intelligence into safer, more reliable, and more autonomous engineering systems. Whether you're a fellow researcher, a student, or just someone curious about my work, feel free to browse around and reach out if anything interests you.
+
+<strong style="color: #c62828;">I am currently on the 2026-2027 faculty job market, seeking tenure-track Assistant Professor positions in Mechanical Engineering, Industrial Engineering, and Systems Engineering.</strong>
 
 ## Research Interests
 
-1. **Scientific machine learning**: physics-informed machine learning, neural operator, generative model
-2. **Digital twin**: finite-element simulation, plasma dynamics, multi-fidelity modeling and data fusion
-3. **Prognostics and health management**: advanced signal processing, condition monitoring, fault diagnosis, remaining useful life prediction
-4. **Reliability-based design optimization**: Bayesian methods, reliability analysis, uncertainty quantification
+1. **Physics-informed AI & Scientific ML:** physics-informed machine learning, neural operators, multi-fidelity learning, generative models
+2. **Digital twin & Computational Engineering:** multi-physics modeling, finite-element simulation, surrogate modeling, model-data integration
+3. **Prognostics & Lifecycle Intelligence:** condition monitoring, fault diagnosis, state estimation, remaining useful life prediction, lifecycle decision-making
+4. **Engineering Design & Decision-Making Under Uncertainty:** design optimization, reliability analysis, uncertainty quantification, Bayesian methods
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

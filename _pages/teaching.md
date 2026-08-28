@@ -20,12 +20,7 @@ nav_order: 5
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
   <span style="font-size: 1.05rem; ">
-    Main instructor: 
-    <a href="https://ise.illinois.edu/directory/profile/gkrishna"
-       target="_blank"
-       rel="noopener noreferrer">
-      Prof. Krishnan Girish
-    </a>
+    Undergraduate Required (100 Students)
   </span>
   <span style="font-size: 1.05rem">
     Spring 2026
@@ -48,12 +43,7 @@ nav_order: 5
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
   <span style="font-size: 1.05rem; ">
-    Main instructor: 
-    <a href="https://ise.illinois.edu/directory/profile/gkrishna"
-       target="_blank"
-       rel="noopener noreferrer">
-      Prof. Krishnan Girish
-    </a>
+    Undergraduate/Graduate Elective (30 Students)
   </span>
   <span style="font-size: 1.05rem">
     Spring 2025
@@ -76,19 +66,14 @@ nav_order: 5
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
   <span style="font-size: 1.05rem; ">
-    Main instructor: 
-    <a href="https://ise.illinois.edu/directory/profile/pingfeng"
-       target="_blank"
-       rel="noopener noreferrer">
-      Prof. Pingfeng Wang
-    </a>
+    Undergraduate/Graduate Elective (45 Students)
   </span>
   <span style="font-size: 1.05rem">
     Fall 2024, Fall 2025
   </span>
 </div>
 
-- Contributed to undergraduate instruction by leading discussion sections and providing academic support via office hours
+- Contributed to instruction by leading discussion sections and providing academic support via office hours
 - Delivered exam review lectures covering multivariate decision making, decision trees, and uncertainty-based decision making, with an emphasis on systematic problem formulation and solution strategies
 
 
@@ -103,19 +88,14 @@ nav_order: 5
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
   <span style="font-size: 1.05rem; ">
-    Main instructor: 
-    <a href="https://tjjt.tongji.edu.cn/info/2943/10978.htm"
-       target="_blank"
-       rel="noopener noreferrer">
-      Prof. Gang Niu
-    </a>
+    Undergraduate Required (60 Students, Instructed in English)
   </span>
   <span style="font-size: 1.05rem">
     Spring 2022
   </span>
 </div>
 
-- Supported course delivery by assisting lectures and coordinating laboratory components for an undergraduate course
+- Supported course delivery by assisting lectures and coordinating laboratory components 
 - Led laboratory sessions on bearing and gearbox test rigs, covering experimental setup, data acquisition, and signal processing
 - Instructed students on vibration-based fault diagnosis using FFT, wavelet transforms, and machine learning methods
 

@@ -120,10 +120,10 @@
     // },
     {
       "type": "research",
-      "title": "ASME-DAC Paper of Distinction",
+      "title": "ASME DAC Johnson Controls Best Paper Award",
       "date": "2026",
       "awarder": "Design Automation Committee (DAC), ASME",
-      "url": "assets/pdf/awards/2026_ASME_DAC_Paper_of_Distinction.pdf"
+      "url": "assets/pdf/awards/2026_ASME_DAC_Best_Paper.pdf"
     },
     {
       "type": "research",
@@ -147,7 +147,7 @@
     },
     {
       "type": "research",
-      "title": "ASME-DAC Paper of Distinction",
+      "title": "ASME DAC Paper of Distinction",
       "date": "2025",
       "awarder": "Design Automation Committee (DAC), ASME",
       "url": "assets/pdf/awards/2025_ASME_DAC_Paper_of_Distinction.pdf"
@@ -238,8 +238,9 @@
       ]
     },
     {
-      "name": "Departmental & University Service",
+      "name": "Departmental, University & Community Service",
       "keywords": [
+        "IISE QCRE Student Board Memeber, 2026–Present",
         "ISE Graduate Program Ambassador, Industrial & Enterprise Systems Engineering, UIUC, 2026–Present"
       ]
     },
