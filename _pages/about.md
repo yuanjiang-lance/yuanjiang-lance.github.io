@@ -32,7 +32,7 @@ My research lies at the intersection of **physics-informed AI, digital twin, and
 
 I enjoy solving physics-driven engineering problems with data-limited, model-aware AI tools. My work spans **energy storage, aerospace propulsion, advanced manufacturing, and mechatronic systems**, with broader interests in translating physics-informed intelligence into safer, more reliable, and more autonomous engineering systems. Whether you're a fellow researcher, a student, or just someone curious about my work, feel free to browse around and reach out if anything interests you.
 
-<strong style="color: #c62828;">I am currently on the 2026-2027 faculty job market, seeking tenure-track Assistant Professor positions in Mechanical Engineering, Industrial Engineering, and Systems Engineering.</strong>
+<strong style="color: #c62828;">I am currently on the 2026-2027 academic job market, seeking tenure-track Assistant Professor positions in Mechanical Engineering, Industrial Engineering, and Systems Engineering.</strong>
 
 ## Research Interests
 
