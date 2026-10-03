@@ -7,6 +7,30 @@ nav: true
 nav_order: 5
 ---
 
+### Lab Instructor
+
+<div style="display: flex; justify-content: space-between; align-items: baseline;">
+  <span style="font-size: 1.1rem; font-weight: 600;">
+    SE 101: Engineering Graphics & Design
+  </span>
+  <span style="font-size: 1.1rem; font-weight: 600;">
+    University of Illinois Urbana–Champaign
+  </span>
+</div>
+
+<div style="display: flex; justify-content: space-between; align-items: baseline;">
+  <span style="font-size: 1.05rem; ">
+    Undergraduate Required (2 Lab Sections, 30 Students)
+  </span>
+  <span style="font-size: 1.05rem">
+    Fall 2026
+  </span>
+</div>
+
+- Instructed freehand engineering sketching, including one- and two-point perspective, isometric and oblique sketches, multiview and section views, auxiliary views, and dimensioning and tolerancing
+- Instructed 3D CAD modeling using Autodesk Fusion 360, including part modeling, patterning, drawings, advanced modeling techniques, assemblies, freeform modeling, rendering, and animation
+- Guided team design projects involving product selection, hands-on dissection and measurement, task decomposition, and 3D reconstruction; mentored students on challenging modeling problems and evaluated final reports and presentations
+
 ### Teaching Assistant
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">

@@ -127,6 +127,13 @@
     },
     {
       "type": "research",
+      "title": "Doctoral Symposium Outstanding Presentation Award",
+      "date": "2026",
+      "awarder": "Prognostics and Health Management Society",
+      "url": "assets/pdf/awards/2026_PHM_Doctoral_Symposium_Outstanding_Presentation.pdf"
+    },  
+    {
+      "type": "research",
       "title": "IISE QCRE Best Student Poster Award",
       "date": "2026",
       "awarder": "IISE Annual Conference & Expo",
@@ -217,10 +224,10 @@
     },
     {
       "type": "professional",
-      "title": "PHM Society Doctoral Symposium",
+      "title": "Doctoral Symposium Participant Award",
       "date": "2026",
-      "awarder": "PHM Society Annual Conference",
-      "url": "https://phm2026.phmsociety.org/call-for-doctoral-symposium/"
+      "awarder": "Prognostics and Health Management Society",
+      "url": "assets/pdf/awards/2026_PHM_Doctoral_Symposium_Participation.pdf"
     },
     {
       "type": "professional",
